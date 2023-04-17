@@ -1,0 +1,158 @@
+/* Import the Lazydog and Raleway font families */
+@import url('https://fonts.googleapis.com/css?family=Lazy+Dog|Raleway');
+
+/* Set the body background color */
+body {
+  background-color: #F4EFE8;
+}
+
+/* Set the default font family and color for all text */
+body, p, span, small, a, button, input[type="submit"] {
+  font-family: 'Raleway', sans-serif;
+  color: #777FA8;
+}
+
+/* Set the link color and remove the underline */
+a {
+  color: #81A5AB;
+  text-decoration: none;
+}
+
+/* Define a hover effect for links */
+a:hover {
+  color: #CFD6F8;
+}
+
+/* Set the button styles */
+button, input[type="submit"] {
+  background-color: #B4BDE9;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Define the styles for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lazy Dog', cursive;
+  color: #777FA8;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-nav {
+  float: right;
+}
+
+/* Define the styles for the navigation menu */
+#main-nav {
+  background-color: transparent;
+  padding: 10px 0;
+  align-items: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid #CFD6F8;
+}
+
+/* Set the font family and size for the navigation links */
+#main-nav a {
+  font-family: 'Raleway';
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Set the color of the navigation links based on the page */
+#main-nav.home a {
+  color: #FFFFFF;
+}
+
+#main-nav:not(.home) a {
+  color: #000000;
+}
+
+/* Define the hover effect for the navigation links */
+#main-nav a:hover {
+  color: #CFD6F8;
+}
+
+/* Define the styles for the footer */
+#main-footer {
+  background-color: #777FA8;
+  color: #FFFFFF;
+  height: 83px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* Define the styles for the donate button */
+.donate-btn {
+  background-color: #FFFFFF;
+  color: #777FA8;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Define the styles for the social media icons */
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Define the styles for the social media icons */
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  height: 24px;
+  width: 24px;
+}
+
+/* Define the styles for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.header-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+}

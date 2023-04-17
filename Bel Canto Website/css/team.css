@@ -1,0 +1,102 @@
+/* Define the styles for the team page */
+
+.team-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+.team-header{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+.team-description{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: #777FA8;
+    margin-bottom: 60px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+.team-page .team-section {
+    margin-bottom: 80px;
+  }
+  
+  .team-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+
+  .team-page .team-section h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .team-page .team-section .section-bar {
+    background-color: #E1D7C7;
+    height: 124px;
+    margin-bottom: 40px;
+  }
+  
+  .team-page .team-section .section-bar h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team-page .team-section .team-member {
+    text-align: center;
+  }
+  
+  .team-page .team-section{
+    border: 3px solid #BAC1DF;
+    width: 278.96px;
+    height: 601px;
+    margin-bottom: 30px;
+  }
+
+  .team-member-image{
+    border: 3px solid #BAC1DF;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 30px;
+    background-image: url('https://via.placeholder.com/278.96x601');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+.team-bar {
+  background-color: #E1D7C7;
+  height: 70px;
+  margin: 20px 0 40px;
+}
+
+  .team-page .team-section .team-member h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  
