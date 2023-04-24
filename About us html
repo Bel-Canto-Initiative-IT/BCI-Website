@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">  
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <title>Bel canto initiative</title> 
+  <link rel="shortcut icon" type="image/png" href="/">
+</head>
+
+<body>
+  <body class="background"></body>
+  <header>
+    <nav id="main-nav" class="not-home">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">OUR TEAM</a>
+    <a href="#">INITIATIVES</a>
+    <a href="#">CONTACT</a>
+  </header>
+  <h1 class="About-us-title">ABOUT US</h1>
+  <h2 class="Mission-statement-title">MISSION STATEMENT</h2>
+  <div class="mission-statement-rec"></div>
+  <p class="mission-statement-desc">Insert mission Insert mission Insert mission Insert mission Insert mission Insert mission Insert mission Insert mission Insert mission Insert mission </p>
+  <div class="rectangle"></div>
+  <div class="Rectangle2"></div>
+  <div class="Our-story-rec"></div>
+  <h1 class="Our-story-title">OUR STORY</h1>
+  <p class="Our-story-desc1">Our story began detail detail detail detail detail detail detail detail detail detail detail detail detail.</p>
+  <p class="Our-story-desc2">detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail </p>
+  <div class="Our-story-pic1"></div>
+  <p class="Our-story-desc3">detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail </p>
+  <div class="Our-story-pic2"></div>
+  <p class="Our-story-desc4">Today... detail detail detail detail detail detail detail detail detail detail detail detail detail.</p>
+  <button class="Meet-the-team-button">MEET THE TEAM!</button>
+
+</body>
+
+<footer id="main-footer">
+  <a href="#" class="donate-btn">Donate</a>
+  <div class="social-icons">
+    <a href="#"><img src="youtube-logo.png" alt="YouTube logo"></a>
+    <a href="#"><img src="instagram-logo.png" alt="Instagram logo"></a>
+    <a href="#"><img src="email-logo.png" alt="Email logo"></a>
+  </div>
+  <p><img src="copyright-logo.png" alt="Copyright logo"> BelCanto 2022</p>
+</footer>
+
+</html>
