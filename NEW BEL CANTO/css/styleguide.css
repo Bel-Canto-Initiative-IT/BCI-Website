@@ -1,0 +1,144 @@
+:root { 
+  --black: #000000;
+  --blue-haze: #bac0df;
+  --conifer: #accc49;
+  --cornflower-lilac: #ffa8a8;
+  --emperor: #4f4a43;
+  --fuscous-gray: #5a554d;
+  --pearl-bush: #e6e0d7;
+  --shadow-blue: #777fa8;
+  --stark-white: #e1d7c7;
+  --white: #ffffff;
+  --white-linen: #f4efe8;
+  --wistful: #98a4de;
+  --zorba: #a29c93;
+ 
+  --font-size-l: 30px;
+  --font-size-m: 20px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 36px;
+  --font-size-xxxl: 40px;
+  --font-size-xxxxl: 50px;
+  --font-size-xxxxxl: 88px;
+ 
+  --font-family-radio_canada: "Radio Canada", Helvetica;
+  --font-family-raleway: "Raleway", Helvetica;
+}
+.raleway-extra-bold-fuscous-gray-20px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.raleway-medium-fuscous-gray-20px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.raleway-normal-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.raleway-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.raleway-normal-fuscous-gray-20px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.raleway-extra-bold-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.raleway-bold-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.raleway-medium-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.radiocanada-semi-bold-emperor-36px {
+  color: var(--emperor);
+  font-family: var(--font-family-radio_canada);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.radiocanada-semi-bold-zorba-36px {
+  color: var(--zorba);
+  font-family: var(--font-family-radio_canada);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.raleway-extra-bold-white-50px {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.raleway-extra-bold-conifer-50px {
+  color: var(--conifer);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.raleway-semi-bold-shadow-blue-24px {
+  color: var(--shadow-blue);
+  font-family: var(--font-family-raleway);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.raleway-bold-black-80px {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.raleway-black-white-60px {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+}
