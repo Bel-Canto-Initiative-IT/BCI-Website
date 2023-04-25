@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Lazy+dog');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300..900&display=swap');
+
+#main-nav:not(.home) a {
+    color: white !important;
+  }
+
+  #main-nav a:hover {
+    color: #CFD6F8 !important;
+  }
+
+
+body {
+    background: url('DFCFD340-88A1-49D8-96C1-7AADC56E632E.mov') no-repeat center center fixed;
+    background-size: cover;
+}
+
+  
+.container {
+    text-align: center;
+    color: white;
+    height: 40vw;
+  }
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+.Welcome {font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 4vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0.2vw;
+ }
+
+
+.mission {font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 2.0vw;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center; 
+
+    padding: 0vw;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0.2vw;
+ }
+
+
+.learn-more {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+    background-color:white;
+    padding: 15px 30px;
+
+    display: inline-block;
+    font-size: 1.5vw;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.learn-more:hover {
+    color: #777FA8;
+}
+
+
+.Impact {
+    position:absolute;
+    margin-top: 10%;
+    background-color: #F4EFE8;
+    width: 100%;
+}
+
+
+.our-impact {
+     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 4vw;
+
+    position: absolute;
+    left:37%;
+}
+
+
+.updated {
+    /* Last Updated: May 1, 2023 */
+position: absolute;
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 400;
+font-size: 1.5vw;
+
+left: 40%;
+margin-top: 5vw;
+color: #5B554D;
+}
+
+
+.numbers {
+position: absolute;
+width: 100%;
+overflow: hidden;
+
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 2.5vw;
+
+margin-top: 10vw;
+color: #ACCC4A;
+}
+
+
+
+.num10 {
+    float: left;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+  }
+  
+
+  .n1000 {
+    float:left;
+    text-align: center;
+    width: 25%;
+    padding-top: 10%;
+    box-sizing: border-box;
+
+  }
+
+  .n30 {
+    float:left;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+
+  }
+
+  .n10 {
+    float:left;
+    text-align: center;
+    width: 25%;
+    padding-top: 10%;
+    box-sizing: border-box;
+
+  }
+
+.brown {
+    font-family: 'Raleway';
+    font-size: 2vw;
+    color: black;
+    text-align: center !important;
+}
+
+.team {
+    font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+   color: black;
+   font-size: 4vw;
+
+   padding-top: 55%;
+   position: absolute;
+   margin-left: 5%;
+   border-bottom: 5px solid #A29C93;
+   display: inline-block;
+   width: 40%;
+
+}
+
+img {
+width: 70%;
+height: 70%;
+}
+
+
+#teamimg {
+    float: right;
+    padding-top: 55%;
+    padding-right: 3%;
+    width: 45%;
+    height: 30vw;
+}
+
+
+#teamtext {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    padding-top: 65%;
+    padding-left: 5%;
+    padding-right: 40%;
+    color: black;
+}
+
+
+#getinvolved {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    color: black;
+
+    margin-left: 40% !important;
+    position:absolute;
+    border: 1px solid black;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    
+    display: inline-block;
+    margin-top: 5% !important;
+}
+
+#getinvolved:hover {
+    color: #777FA8;
+}
