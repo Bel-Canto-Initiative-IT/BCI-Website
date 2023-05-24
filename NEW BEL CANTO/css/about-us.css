@@ -1,5 +1,6 @@
 /* screen - about-us */
 
+/* root */
 .about-us {
   align-items: flex-start;
   background-color: var(--stark-white);
@@ -11,6 +12,7 @@
   width: 1440px;
 }
 
+/* header */
 .about-us .header {
   align-items: center;
   background-color: transparent;
@@ -26,26 +28,30 @@
   width: auto;
 }
 
+/* top left header logo */
 .about-us .bci-logo-1-modified-2 {
   height: 60px;
   object-fit: cover;
   width: 60px;
 }
 
+/* gap between header and title */
 .about-us .flex-col {
   flex-direction: column;
   gap: 2px;
-  margin-bottom: 3.51px;
+  margin-bottom: 4px;
   min-height: 48px;
   width: 915px;
 }
 
+/* gap between header and top left logo */
 .about-us .flex-row {
   gap: 25px;
-  margin-left: 0.03px;
+  margin-left: 0.1px;
   min-width: 908px;
 }
 
+/* gap between "HOME" and "ABOUT US" in header */
 .about-us .place {
   letter-spacing: 0;
   line-height: normal;
@@ -53,6 +59,7 @@
   width: 100px;
 }
 
+/* gap between "ABOUT US" and "OUR TEAM" in header */
 .about-us .about-us-1 {
   letter-spacing: 0;
   line-height: normal;
@@ -60,17 +67,20 @@
   width: 173px;
 }
 
+/* gap between "OUR TEAM" and "INITIATIVES" in header */
 .about-us .our-team {
   min-height: 44px;
   width: 184px;
 }
 
+/* gap between the names of pages and the thin line in the header */
 .about-us .overlap-group6 {
   height: 44px;
   position: relative;
   width: 376px;
 }
 
+/* ? */
 .about-us .initiatives {
   left: 0;
   letter-spacing: 0;
@@ -80,6 +90,7 @@
   width: 257px;
 }
 
+/* gap between "INITIATIVES" and "CONTACT" in header*/
 .about-us .place-1 {
   left: 222px;
   position: absolute;
@@ -87,11 +98,13 @@
   width: 154px;
 }
 
+/* gap between the header and the line above the title */
 .about-us .line-1 {
   height: 2px;
   width: 915px;
 }
 
+/* title */
 .about-us .about-us-title-section {
   align-items: flex-start;
   align-self: center;
@@ -104,6 +117,7 @@
   width: 1352px;
 }
 
+/* rectangle above title */
 .about-us .rectangle-6 {
   align-self: flex-end;
   height: 9px;
@@ -111,6 +125,7 @@
   width: 972px;
 }
 
+/* text inside title */
 .about-us .title {
   align-self: center;
   color: var(--black);
