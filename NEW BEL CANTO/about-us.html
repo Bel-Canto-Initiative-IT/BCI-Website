@@ -1,20 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
+<!-- Links don't work, probably something to do with 'autoanim_redirect()' -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang ="en">
+  <head> <!-- metadata goes here -->
+    <meta charset="utf-8" />
+    <title> About Us </title>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-    <meta name="og:type" content="website" />
-    <meta name="twitter:card" content="photo" />
+
+    <!-- .css stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/about-us.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+
+    <!-- misc -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
   </head>
-  <body style="margin: 0; background: #e1d7c7">
+
+  <body style="margin: 0; background: #e1d7c7"> <!-- TO DO: move 'style=' to an external CSS -->
     <input type="hidden" id="anPageName" name="page" value="about-us" />
+
+    <!-- overarching containers -->
     <div class="container-center-horizontal">
       <div class="about-us screen">
+
+        <!-- header -->
         <header class="header">
           <img class="bci-logo-1-modified-2" src="img/bci-logo--1--modified-1@2x.png" alt="BCI logo (1)-modified 2" />
           <div class="flex-col flex">
@@ -52,6 +63,8 @@
             <img class="line-1" src="img/line-1-1.svg" alt="Line 1" />
           </div>
         </header>
+
+        <!-- old header (remove?) -->
         <!-- <header class="header">
           <img class="bci-logo-1-modified-2" src="img/bci-logo--1--modified-2-1@2x.png" alt="BCI logo (1)-modified 2" />
           <div class="overlap-group18">
@@ -68,11 +81,15 @@
             ><a href="home-landing.html"><div class="place-1 raleway-normal-black-32px">HOME</div> </a>
           </div>
         </header> -->
+
+        <!-- title section -->
         <div class="about-us-title-section">
           <img class="rectangle-6" src="img/rectangle-6.svg" alt="Rectangle 6" />
           <h1 class="title">ABOUT US</h1>
           <img class="rectangle-7" src="img/rectangle-6.svg" alt="Rectangle 7" />
         </div>
+
+        <!-- Mission Statement section -->
         <div class="about-us-mission-statement-section">
           <div class="overlap-group">
             <div class="mission-statement raleway-black-white-60px">MISSION STATEMENT</div>
@@ -83,6 +100,8 @@
             Insert mission Insert mission Insert mission
           </p>
         </div>
+
+        <!-- Our Story section -->
         <div class="about-us-our-story-section">
           <div class="overlap-group-1"><div class="our-story our raleway-black-white-60px">OUR STORY</div></div>
           <p class="our-story-began-deta raleway-medium-black-32px">
@@ -113,6 +132,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Learn More section -->
         <div class="about-us-learn-more-section">
           <div class="overlap-group3">
             <div class="learn-more-1 learn-more-3 raleway-black-white-60px">LEARN MORE</div>
@@ -158,6 +179,8 @@
             </div>
           </div>
         </div>
+
+        <!-- footer -->
         <footer class="footer">
           <div class="overlap-group-3">
             <div class="footer-1"></div>
@@ -198,6 +221,7 @@
             <div class="bel-canto-2022 raleway-normal-white-32px">BelCanto 2022</div>
           </div>
         </footer>
+
       </div>
     </div>
   </body>
