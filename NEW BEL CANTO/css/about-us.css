@@ -486,9 +486,11 @@
   width: 862px;
 }
 
+/* blur */
 .about-us .rectangle-46 {
   background-color: var(--white-linen);
   filter: blur(100px);;
+  z-index: -1;
   height: 431px;
   left: 48px;
   position: absolute;
@@ -571,6 +573,23 @@
   transform: rotate(-107.50deg);
   width: 31px;
 }
+
+.about-us .a-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 36px;
+}
+
+.about-us .q-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 39px;
+}
+
 
 /* plant boi */
 .about-us .plant-boi-classic-2 {
@@ -684,14 +703,6 @@
   top: 30px;
 }
 
-.about-us .a-4 {
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  width: 36px;
-}
-
 /* ? */
 .about-us .flex-row-3 {
   align-items: center;
@@ -702,12 +713,4 @@
 .about-us .our {
   letter-spacing: 0;
   line-height: normal;
-}
-
-.about-us .q-4 {
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  width: 39px;
 }
