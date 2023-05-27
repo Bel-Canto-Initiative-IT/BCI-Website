@@ -1,5 +1,6 @@
 /* screen - contacts */
 
+/* root */
 .contacts {
   align-items: flex-start;
   background-color: var(--white-linen);
@@ -11,6 +12,7 @@
   width: 1440px;
 }
 
+/* header */
 .contacts .header {
   align-items: center;
   background-color: transparent;
@@ -25,12 +27,14 @@
   width: auto;
 }
 
+/* top left header logo */
 .contacts .bci-logo-1-modified-2 {
   height: 54px;
   object-fit: cover;
   width: 60px;
 }
 
+/* gap between header and title */
 .contacts .flex-col {
   flex-direction: column;
   gap: 2px;
@@ -39,18 +43,21 @@
   width: 1011px;
 }
 
+/* first 3 links inside header */
 .contacts .flex-row {
   gap: 25px;
   margin-left: 0.04px;
   min-width: 1011px;
 }
 
+/* "HOME" link */
 .contacts .place {
   cursor: pointer;
   min-height: 36px;
   width: 100px;
 }
 
+/* "ABOUT US" link */
 .contacts .about-us {
   cursor: pointer;
   letter-spacing: 0;
@@ -59,6 +66,7 @@
   width: 173px;
 }
 
+/* "OUR TEAM" link */
 .contacts .our-team {
   cursor: pointer;
   letter-spacing: 0;
@@ -67,12 +75,14 @@
   width: 184px;
 }
 
+/* last 2 links inside header */
 .contacts .overlap-group5 {
   height: 40px;
   position: relative;
   width: 479px;
 }
 
+/* "INITIATIVES" link */
 .contacts .initiatives {
   cursor: pointer;
   left: 0;
@@ -83,6 +93,7 @@
   width: 257px;
 }
 
+/* "CONTACT US" link */
 .contacts .place-1 {
   left: 222px;
   position: absolute;
@@ -90,11 +101,13 @@
   width: 257px;
 }
 
+/* thin line below links in header */
 .contacts .line-1 {
   height: 2px;
   width: 915px;
 }
 
+/* title section */
 .contacts .contacts-title-sction {
   align-items: flex-start;
   display: flex;
@@ -103,6 +116,7 @@
   min-width: 1444px;
 }
 
+/* root for title section */
 .contacts .overlap-group4 {
   align-items: flex-start;
   background-color: #cfd6f8;
@@ -114,6 +128,7 @@
   width: 1440px;
 }
 
+/* title text */
 .contacts .title {
   align-self: center;
   color: var(--black);
@@ -128,6 +143,7 @@
   width: 618px;
 }
 
+/* text below title */
 .contacts .detail-detail-detail {
   letter-spacing: 0;
   line-height: normal;
@@ -135,6 +151,7 @@
   width: 1271px;
 }
 
+/* root for send message section */
 .contacts .contacts-send-message-section {
   align-items: flex-start;
   align-self: flex-end;
@@ -146,6 +163,7 @@
   width: 1279px;
 }
 
+/* "send us a message" text */
 .contacts .send-us-a-message {
   color: var(--black);
   font-family: var(--font-family-raleway);
@@ -159,6 +177,7 @@
   width: 719px;
 }
 
+/* root for input boxes */
 .contacts .overlap-group {
   height: 138px;
   margin-left: -1px;
@@ -167,6 +186,7 @@
   width: 1272px;
 }
 
+/* first 2 input boxes */
 .contacts .rectangle-3 {
   background-color: var(--pearl-bush);
   border: 1px solid;
@@ -178,6 +198,7 @@
   width: 879px;
 }
 
+/* title for 1st input box */
 .contacts .place-2 {
   left: 1px;
   position: absolute;
@@ -185,6 +206,7 @@
   width: 1271px;
 }
 
+/* title for 2nd input box */
 .contacts .email-address {
   left: 1px;
   letter-spacing: 0;
@@ -194,6 +216,7 @@
   width: 1271px;
 }
 
+/* root for 3rd input box */
 .contacts .overlap-group2 {
   height: 352px;
   margin-left: -1px;
@@ -202,6 +225,7 @@
   width: 1272px;
 }
 
+/* 3rd input box */
 .contacts .rectangle-3-1 {
   background-color: var(--pearl-bush);
   border: 1px solid;
@@ -213,6 +237,7 @@
   width: 879px;
 }
 
+/* title for 3rd input box */
 .contacts .message {
   left: 1px;
   letter-spacing: 0;
@@ -222,6 +247,7 @@
   width: 1271px;
 }
 
+/* background rectangle for "submit" button */
 .contacts .overlap-group-1 {
   align-items: flex-start;
   align-self: center;
@@ -237,6 +263,7 @@
   padding: 33px 25px;
 }
 
+/* "submit" button text */
 .contacts .submit {
   color: var(--black);
   font-family: var(--font-family-raleway);
@@ -249,6 +276,7 @@
   width: 272px;
 }
 
+/* footer */
 .contacts .footer {
   align-items: flex-start;
   background-color: transparent;
@@ -261,12 +289,14 @@
   width: auto;
 }
 
+/* something in the footer */
 .contacts .overlap-group-2 {
   height: 85px;
   position: relative;
   width: 1440px;
 }
 
+/* instagram icon */
 .contacts .icon-instagram {
   height: 85px;
   left: 1181px;
@@ -275,6 +305,7 @@
   width: 72px;
 }
 
+/* youtube icon */
 .contacts .icon-social-youtube {
   cursor: pointer;
   height: 35px;
@@ -284,6 +315,7 @@
   width: 35px;
 }
 
+/* email icon */
 .contacts .icon-mail {
   height: 43px;
   left: 1032px;
@@ -291,6 +323,7 @@
   width: 53px;
 }
 
+/* background rectangle for "donate" button */
 .contacts .rectangle-46 {
   background-color: var(--white);
   border-radius: 15px;
@@ -302,6 +335,7 @@
   width: 150px;
 }
 
+/* "donate" button text */
 .contacts .donate {
   cursor: pointer;
   left: 843px;
