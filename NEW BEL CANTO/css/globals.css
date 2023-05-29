@@ -63,21 +63,21 @@
 }
 
 .copyright {
-  left: 104px;
+  margin-left: 5%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 24px;
+  top: 30%;
 }
 
 .bel-canto-2022 {
-  left: 154px;
+  left: 15%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 23px;
+  top: 30%;
 }
 
 .icon {
@@ -98,11 +98,11 @@
 
 .footer-1 {
   background-color: var(--shadow-blue);
-  height: 83px;
+  height: 2vw;
   left: 0;
   position: absolute;
-  top: 2px;
-  width: 1440px;
+  top: 0.5vw;
+  width: 100%;
 }
 
 .flex {

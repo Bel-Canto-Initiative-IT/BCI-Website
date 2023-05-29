@@ -7,43 +7,45 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 2575px;
+  height: 100%;
   overflow: hidden;
-  width: 1440px;
+  width: 100%;
 }
 
 /* positioning elements in front of background vid*/
 .home-landing .overlap-group6 {
-  height: 1034px;
+  height: 70vw;
   margin-left: 4.0px;
   position: relative;
-  width: 1444px;
+  width: 100%;
 }
 
 .home-landing .overlap-group4 {
-  height: 1034px;
+  height: 10vw;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
 }
 
 /*background vid size*/
 .home-landing .background-video {
-  height: 1000px;
+  height: 65vw;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
 }
 
 /*mascot image*/
 .home-landing .plant-boi-classic-1 {
-  height: 534px;
-  left: 1134px;
-  top: 500px;
-  width: 273px;
+  height: 35vw;
+  left: 87%;
+  top: 280%;
+  width: 9vw;
+  object-fit: contain;
+  overflow: hidden;
 }
 
 /*main text on front page*/
@@ -52,13 +54,14 @@
   font-family: var(--font-family-raleway);
   font-size: var(--font-size-xxxxxl);
   font-weight: 800;
-  left: 391px;
+  left: 25%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 292px;
-  width: 659px;
+  font-size: 7vw;
+  top: 18vw;
+  width: 50%;
 }
 
 /*slogan text*/
@@ -68,35 +71,38 @@
   font-size: var(--font-size-xxxl);
   font-style: italic;
   font-weight: 500;
-  left: 261px;
+  left: 20%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 549px;
-  width: 911px;
+  font-size: 3vw;
+  top: 42vw;
+  width: auto;
 }
 
-/*Learn More*/
+/*Learn More button*/
 .home-landing .primary-button {
   align-items: flex-start;
   background-color: var(--white-linen);
   cursor: pointer;
   display: flex;
-  height: 75px;
-  left: 569px;
-  min-width: 302px;
+  height: 5vw;
+  left: 40%;
+  width: 24vw;
   position: absolute;
-  top: 687px;
+  top: 50vw;
 }
 
+/*Learn More text*/
 .home-landing .learn-more {
-  height: 75px;
+  height: 5vw;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
+  top: 49vw;
   text-align: center;
-  width: 302px;
+  width: 100%;
+  font-size: 2vw;
 }
 
 .home-landing .header {
@@ -105,38 +111,42 @@
   display: flex;
   flex-direction: row;
   gap: 31px;
-  height: 60px;
+  height: 5vw;
   justify-content: flex-start;
-  left: 70px;
+  left: 10%;
   min-width: 1016px;
   padding: 0 0.0px;
   position: absolute;
-  top: 50px;
+  top: 2vw;
   width: auto;
 }
 
+/*header logo*/
 .home-landing .bci-logo-1-modified-2 {
-  height: 60px;
+  height: 6vw;
   object-fit: cover;
-  width: 60px;
+  width: 6vw;
 }
 
+/*header spacing*/
 .home-landing .flex-col-1 {
   align-items: flex-start;
-  gap: 2px;
-  margin-bottom: 3.51px;
-  min-height: 48px;
-  width: 915px;
+  gap: 0.5vw;
+  margin-top: 3vw;
+  height: 8vw;
+  width: 100%;
 }
 
+/*header arrangement*/
 .home-landing .navbar-link-container {
   align-items: flex-start;
   display: flex;
-  height: 44px;
-  margin-left: 0.03px;
-  min-width: 908px;
+  height: 4vw;
+  left: 30%;
+  min-width: 22vw;
 }
 
+/*home header*/
 .home-landing .navbar-link-place {
   color: var(--white);
   font-family: var(--font-family-raleway);
@@ -144,51 +154,69 @@
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 40px;
-  width: 100px;
+  height: 7vw;
+  width: auto;
+  font-size: 2vw;
 }
 
+/*about us header*/
 .home-landing .navbar-link-about-us {
   cursor: pointer;
   letter-spacing: 0;
   line-height: normal;
   margin-left: 25px;
-  min-height: 40px;
-  width: 173px;
+  height: 7vw;
+  width: auto;
+  font-size: 2vw;
+
 }
 
+/*our team header*/
 .home-landing .navbar-link-our-team {
   cursor: pointer;
   letter-spacing: 0;
   line-height: normal;
   margin-left: 25px;
   min-height: 44px;
-  width: 184px;
+  width: auto;
+  font-size: 2vw;
+
 }
 
+/*initiatives header*/
 .home-landing .navbar-link-initiatives {
   cursor: pointer;
   letter-spacing: 0;
   line-height: normal;
   margin-left: 25px;
   min-height: 40px;
-  width: 178px;
+  width: auto;
+  font-size: 2vw;
+
 }
 
+/*contact us header*/
 .home-landing .navbar-link-place-1 {
   cursor: pointer;
   letter-spacing: 0;
   line-height: normal;
   margin-left: 44px;
   min-height: 44px;
-  width: 154px;
+  width: auto;
+  font-size: 2vw;
+
 }
 
+/*line under header*/
 .home-landing .line-1 {
-  height: 2px;
-  width: 915px;
+  height: 0.4vw;
+  width: 61vw;
+  margin-right: 20%;
+  display: flex;
+  margin: 0 auto;
 }
 
+/*Our Impact section*/
 .home-landing .home-our-impact-section {
   align-items: flex-start;
   display: flex;
@@ -200,6 +228,7 @@
   width: 1260px;
 }
 
+/*arrangement of Our Impact header*/
 .home-landing .flex-col-2 {
   align-items: center;
   gap: 1px;
@@ -209,6 +238,7 @@
   width: 1070px;
 }
 
+/*font Our Impact*/
 .home-landing .our-impact {
   font-size: var(--font-size-xxxxxl);
   margin-left: 156.0px;
@@ -216,18 +246,21 @@
   width: 634px;
 }
 
+/* text + subheadings below Our Impact*/
 .home-landing .overlap-group1 {
   height: 160px;
   position: relative;
   width: 1070px;
 }
 
+/*performances text*/
 .home-landing .x10-performances {
   left: 0;
   position: absolute;
   top: 70px;
 }
 
+/*youth text*/
 .home-landing .x30-youths {
   left: 716px;
   letter-spacing: 0;
@@ -252,6 +285,7 @@
   width: 911px;
 }
 
+/*images arrangement*/
 .home-landing .flex-row {
   align-items: flex-start;
   display: flex;
@@ -311,13 +345,15 @@
   width: 1440px;
 }
 
+/*footer*/
 .home-landing .footer {
   background-color: var(--shadow-blue);
-  height: 83px;
+  height: 5em;
   left: 0;
   position: absolute;
-  top: 2px;
-  width: 1440px;
+  margin-bottom: 0%;
+  top: 0.5vw;
+  width: 100%;
 }
 
 .home-landing .icon-instagram {
@@ -442,6 +478,7 @@
   width: 283px;
 }
 
+/*mascot*/
 .home-landing .plant-boi-classic-2 {
   height: 321px;
   left: 0;
@@ -457,6 +494,7 @@
   top: 0;
 }
 
+/*learn more button*/
 .home-landing .learn-more-1 {
   color: var(--black);
   font-family: var(--font-family-raleway);
