@@ -1,19 +1,19 @@
-<!-- Links don't work, probably something to do with 'autoanim_redirect()' -->
-
 <!DOCTYPE html>
 <html lang ="en">
   <head> <!-- metadata goes here -->
     <meta charset="utf-8" />
     <title> About Us </title>
-    <link rel="shortcut icon" type="image/png" href="/Users/phoebe/Bel Canto coding/BelCantoInitiative/NEW BEL CANTO/assets/bci-logo--1--modified-12x.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/bci-logo--1--modified-12x.png" />
 
     <!-- .css stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/about-us.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
 
+    <!-- metadata for auto-resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- misc -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
   </head>
@@ -27,9 +27,9 @@
 
         <!-- header -->
         <header class="header">
-          <img class="bci-logo-1-modified-2" src="img/bci-logo--1--modified-1@2x.png" alt="BCI logo (1)-modified 2" />
           <div class="flex-col flex">
             <div class="flex-row flex">
+              <img class="bci-logo-1-modified-2" src="assets/bci-logo--1--modified-1@2x.png" alt="BCI logo" />
               <div
                 class="place raleway-normal-black-32px"
                 onclick="Lib.autoanim_redirect('about-us.html,home-landing.html,,,;', event)"
@@ -60,56 +60,9 @@
                 </div>
               </div>
             </div>
-            <img class="line-1" src="img/line-1-1.svg" alt="Line 1" />
+            <img class="line-1" src="assets/About us/line-1-1.svg" alt="Line 1" />
           </div>
-          <div
-            class="our-team-IcPKRJ"
-            onclick="Lib.autoanim_redirect('event,our-team.html,,,;mff,our-team.html,,,;funraiser,our-team.html,,,;mmoh,our-team.html,,,', event)"
-            onmouseover=""
-          >
-            OUR TEAM
-          </div>
-          <div
-            class="initiatives-IcPKRJ"
-            onclick="Lib.autoanim_redirect('mff,event.html,,,;funraiser,event.html,,,;mmoh,event.html,,,', event)"
-            onmouseover=""
-          >
-            INITIATIVES
-          </div>
-          <div
-            class="place-IcPKRJ"
-            onclick="Lib.autoanim_redirect('event,contacts.html,,,;mff,contacts.html,,,;funraiser,contacts.html,,,;mmoh,contacts.html,,,', event)"
-            onmouseover=""
-          >
-            CONTACT
-          </div>
-          <div
-            class="place-wRlxz0"
-            onclick="Lib.autoanim_redirect('event,home-landing.html,,,;mff,home-landing.html,,,;funraiser,home-landing.html,,,;mmoh,home-landing.html,,,', event)"
-            onmouseover=""
-          >
-            HOME
-          </div>
-          <div class="bci-logo-1-modified-2-IcPKRJ"></div>
         </header>
-
-        <!-- old header (remove?) -->
-        <!-- <header class="header">
-          <img class="bci-logo-1-modified-2" src="assets/About us/bci-logo--1--modified-2-1@2x.png" alt="BCI logo (1)-modified 2" />
-          <div class="overlap-group18">
-            <div class="overlap-group17">
-              <img class="line-1" src="assets/About us/line-1-1.svg" alt="Line 1" />
-              <a href="contacts.html"><div class="place raleway-normal-black-32px">CONTACT</div> </a>
-            </div>
-            <a href="about-us.html#about-us" data-turbolinks="false"
-              ><div class="about-us raleway-normal-black-32px">ABOUT US</div>
-            </a>
-            <div class="our-team-1 raleway-bold-black-32px">OUR TEAM</div>
-            <a href="mff.html#event" data-turbolinks="false"
-              ><div class="initiatives raleway-normal-black-32px">INITIATIVES</div> </a
-            ><a href="home-landing.html"><div class="place-1 raleway-normal-black-32px">HOME</div> </a>
-          </div>
-        </header> -->
 
         <!-- title section -->
         <div class="about-us-title-section">
@@ -137,7 +90,7 @@
             
           </p>
           <div class="flex-row-1 flex-row-3">
-            <img class="vector-1" src="assets/About us/vector-1-1.svg" alt="Vector 1" />
+            <img class="vector-1" src="assets/Home/vector-1-1.svg" alt="Vector 1" />
             <p class="detail-detail-detail raleway-medium-black-32px">
               With a focus in fostering an inclusive environment that reaches people of diverse ages and cultural backgrounds, we provide youth with the chance to connect with seniors through senior center concerts and engage with the community through general public performances. 
             </p>

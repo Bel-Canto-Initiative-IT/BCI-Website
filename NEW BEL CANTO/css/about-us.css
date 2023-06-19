@@ -2,46 +2,35 @@
 
 /* root */
 .about-us {
-  align-items: flex-start;
+  align-items: center;
   background-color: var(--stark-white);
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 3322px;
   overflow: hidden;
-  width: 1440px;
+  height: 100%;
+  max-width: 100%;
 }
 
 /* header */
 .about-us .header {
   align-items: center;
-  background-color: transparent;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-shrink: 1;
-  gap: 31px;
-  justify-content: flex-start;
-  margin-left: 70px;
-  margin-top: 50px;
-  min-width: 1016px;
-  padding: 0 0.0px;
-  width: auto;
+  margin-top: 2vw;
 }
 
 /* top left header logo */
 .about-us .bci-logo-1-modified-2 {
-  height: 60px;
   object-fit: cover;
-  width: 60px;
+  width: 4vw;
 }
 
 /* gap between header and title */
 .about-us .flex-col {
   flex-direction: column;
-  gap: 2px;
-  margin-bottom: 4px;
-  min-height: 48px;
-  width: 915px;
 }
 
 /* first 3 links inside header */
