@@ -1,0 +1,697 @@
+/* screen - about-us */
+
+/* root */
+.about-us {
+  align-items: center;
+  background-color: var(--stark-white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* header */
+.about-us .header {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  margin-top: 2vw;
+}
+
+/* top left header logo */
+.about-us .bci-logo-1-modified-2 {
+  object-fit: cover;
+  width: 4vw;
+}
+
+/* gap between header and title */
+.about-us .flex-col {
+  flex-direction: column;
+}
+
+/* first 3 links inside header */
+.about-us .flex-row {
+  gap: 25px;
+  margin-left: 0.1px;
+  min-width: 908px;
+}
+
+/* "HOME" link */
+.about-us .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 40px;
+  width: 100px;
+}
+
+/* "ABOUT US" link */
+.about-us .about-us-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 40px;
+  width: 173px;
+}
+
+/* "OUR TEAM" link */
+.about-us .our-team {
+  min-height: 44px;
+  width: 184px;
+}
+
+/* last 2 links inside the header */
+.about-us .overlap-group6 {
+  height: 44px;
+  position: relative;
+  width: 376px;
+}
+
+/* "INITIATIVES" link */
+.about-us .initiatives {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 257px;
+}
+
+/* "CONTACT US" link */
+.about-us .place-1 {
+  left: 222px;
+  position: absolute;
+  top: 0;
+  width: 154px;
+}
+
+/* thin line below links in header */
+.about-us .line-1 {
+  height: 2px;
+  width: 915px;
+}
+
+/* title section */
+.about-us .about-us-title-section {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-left: 2.0px;
+  margin-top: 59px;
+  min-height: 161px;
+  width: 1352px;
+}
+
+/* rectangle above title */
+.about-us .rectangle-6 {
+  align-self: flex-end;
+  height: 9px;
+  margin-right: 2px;
+  width: 972px;
+}
+
+/* text inside title */
+.about-us .title {
+  align-self: center;
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 53.0px;
+  min-height: 97px;
+  text-align: center;
+  width: 461px;
+}
+
+/* rectangle below title */
+.about-us .rectangle-7 {
+  height: 9px;
+  width: 972px;
+}
+
+/* mission statement section */
+.about-us .about-us-mission-statement-section {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+  min-height: 389px;
+  width: 1444px;
+}
+
+/* background rectangle for "MISSION STATEMENT" */
+.about-us .overlap-group {
+  align-items: flex-end;
+  background-color: var(--shadow-blue);
+  display: flex;
+  height: 124px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 26.2px 345px;
+}
+
+/* "MISSION STATEMENT" text placement */
+.about-us .mission-statement {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 71px;
+  text-align: center;
+  width: 696px;
+}
+
+/* Mission statement header text */
+.about-us .place-2 {
+  color: #808abc;
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 900;
+  margin-left: 100px;
+  margin-top: 35px;
+  min-height: 59px;
+  min-width: 184px;
+  text-align: center;
+}
+
+/* Mission statement text */
+.about-us .insert-mission-inser {
+  align-self: center;
+  color: #1e1e1e;
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 30.0px;
+  margin-top: 32px;
+  min-height: 139px;
+  width: 996px;
+}
+
+/* our story section */
+.about-us .about-us-our-story-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+  min-height: 1211px;
+  width: 1448px;
+}
+
+/* background rectangle for "OUR STORY" */
+.about-us .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--shadow-blue);
+  display: flex;
+  height: 124px;
+  margin-right: 8.0px;
+  min-width: 1440px;
+  padding: 26.4px 488px;
+}
+
+/* "OUR STORY" text placement */
+.about-us .our-story {
+  min-height: 70px;
+  text-align: center;
+  width: 464px;
+}
+
+/* our story 1st paragraph text */
+.about-us .our-story-began-deta {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 17.0px;
+  margin-top: 61px;
+  min-height: 105px;
+  width: 1153px;
+}
+
+/* our story 2nd paragraph and img placement */
+.about-us .flex-row-1 {
+  gap: 86px;
+  margin-left: 40.5px;
+  margin-top: 18px;
+  min-width: 1214px;
+}
+
+/* our story 2nd paragraph placement */
+.about-us .vector-1 {
+  height: 309px;
+  width: 367px;
+}
+
+/* our story 2nd paragraph placement */
+.about-us .detail-detail-detail {
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 214px;
+  width: 760px;
+}
+
+/* our story 3rd paragraph and img placement */
+.about-us .flex-row-2 {
+  gap: 54px;
+  margin-right: 21.5px;
+  margin-top: 2px;
+  min-width: 1180px;
+}
+
+/* our story 3rd paragraph placement */
+.about-us .detail-detail-detail-1 {
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: 35.0px;
+  min-height: 214px;
+  width: 760px;
+}
+
+/* our story 3rd paragraph placement */
+.about-us .vector-2 {
+  height: 310px;
+  width: 367px;
+}
+
+/* our story 4th paragraph placement */
+.about-us .overlap-group5 {
+  height: 216px;
+  margin-right: 49.0px;
+  margin-top: 68px;
+  position: relative;
+  width: 1153px;
+}
+
+/* our story 4th paragraph text */
+.about-us .today-detail-deta {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 1153px;
+}
+
+/* background rectangle for "MEET THE TEAM!" */
+.about-us .primary-button {
+  align-items: flex-start;
+  background-color: #9ca4d1;
+  display: flex;
+  height: 112px;
+  left: 370px;
+  min-width: 445px;
+  position: absolute;
+  top: 104px;
+}
+
+/* "MEET THE TEAM!" text */
+.about-us .learn-more {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  height: 112px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  text-align: center;
+  width: 445px;
+}
+
+/* Learn more section */
+.about-us .about-us-learn-more-section {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-left: -38.0px;
+  margin-top: 61px;
+  min-height: 1151px;
+  padding: 0 28.0px;
+  width: 1506px;
+}
+/* background rectangle for "LEARN MORE" */
+.about-us .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--shadow-blue);
+  display: flex;
+  height: 124px;
+  min-width: 1440px;
+  padding: 26px 488.0px;
+}
+
+/* "LEARN MORE" text */
+.about-us .learn-more-1 {
+  min-height: 71px;
+  width: 464px;
+}
+
+/* FAQ section */
+.about-us .overlap-group-container {
+  height: 1008px;
+  margin-right: 0.41px;
+  position: relative;
+  width: 1440px;
+}
+
+/* the 3 FAQ questions to the right */
+.about-us .overlap-group2 {
+  height: 708px;
+  left: 912px;
+  position: absolute;
+  top: 72px;
+  width: 528px;
+}
+
+/* most of the blocks of code below are for elements of the FAQ visual */
+.about-us .rectangle-41 {
+  height: 409px;
+  left: 48px;
+  position: absolute;
+  top: 299px;
+  width: 399px;
+}
+
+.about-us .q {
+  left: 172px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 388px;
+  transform: rotate(30.00deg);
+  width: 39px;
+}
+
+.about-us .a {
+  left: 112px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 509px;
+  transform: rotate(30.00deg);
+  width: 36px;
+}
+
+.about-us .rectangle-43 {
+  height: 199px;
+  left: 326px;
+  position: absolute;
+  top: 148px;
+  width: 202px;
+}
+
+.about-us .q-1 {
+  left: 358px;
+  top: 188px;
+  transform: rotate(5.50deg);
+}
+
+.about-us .a-1 {
+  left: 352px;
+  top: 253px;
+  transform: rotate(5.50deg);
+}
+
+.about-us .rectangle-40 {
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.about-us .q-2 {
+  left: 97px;
+  top: 57px;
+  transform: rotate(9.00deg);
+}
+
+.about-us .a-2 {
+  left: 52px;
+  top: 186px;
+  transform: rotate(9.00deg);
+}
+
+.about-us .rectangle-23 {
+  background-color: var(--wistful);
+  height: 71px;
+  left: 426px;
+  opacity: 0.8;
+  position: absolute;
+  top: 396px;
+  transform: rotate(136.00deg);
+  width: 31px;
+}
+
+.about-us .rectangle-42 {
+  background-color: var(--wistful);
+  height: 71px;
+  left: 34px;
+  opacity: 0.8;
+  position: absolute;
+  top: 528px;
+  transform: rotate(154.50deg);
+  width: 31px;
+}
+
+.about-us .overlap-group-2 {
+  height: 1008px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 975px;
+}
+
+.about-us .overlap-group1 {
+  height: 1008px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 862px;
+}
+
+/* blur */
+.about-us .rectangle-46 {
+  background-color: var(--white-linen);
+  filter: blur(100px);;
+  z-index: -1;
+  height: 431px;
+  left: 48px;
+  position: absolute;
+  top: 0;
+  width: 696px;
+}
+
+/* FAQ text */
+.about-us .faq {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-radio_canada);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 600;
+  left: 203px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 106px;
+  width: 218px;
+}
+
+.about-us .rectangle {
+  height: 194px;
+  left: 253px;
+  position: absolute;
+  top: 403px;
+  width: 197px;
+}
+
+.about-us .overlap-group1-item {
+  left: 307px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 440px;
+  transform: rotate(-4.00deg);
+  width: 39px;
+}
+
+.about-us .overlap-group1-item-1 {
+  left: 314px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 517px;
+  transform: rotate(-4.00deg);
+  width: 36px;
+}
+
+.about-us .rectangle-39 {
+  height: 366px;
+  left: 518px;
+  position: absolute;
+  top: 383px;
+  width: 344px;
+}
+
+.about-us .q-3 {
+  left: 585px;
+  top: 475px;
+  transform: rotate(-13.00deg);
+}
+
+.about-us .a-3 {
+  left: 609px;
+  top: 578px;
+  transform: rotate(-13.00deg);
+}
+
+.about-us .rectangle-38 {
+  background-color: var(--wistful);
+  height: 109px;
+  left: 643px;
+  opacity: 0.8;
+  position: absolute;
+  top: 361px;
+  transform: rotate(-107.50deg);
+  width: 31px;
+}
+
+.about-us .a-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 36px;
+}
+
+.about-us .q-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 39px;
+}
+
+
+/* plant boi */
+.about-us .plant-boi-classic-2 {
+  height: 481px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 527px;
+  width: 385px;
+}
+
+/* leaf image */
+.about-us .leaf-cartoon-in-flat-style-png-1 {
+  height: 368px;
+  left: 305px;
+  object-fit: cover;
+  position: absolute;
+  top: 59px;
+  width: 370px;
+}
+
+/* background rectangle for "CONTACT US" */
+.about-us .primary-button-1 {
+  align-items: flex-start;
+  background-color: #9ca4d1;
+  display: flex;
+  height: 113px;
+  left: 530px;
+  min-width: 445px;
+  position: absolute;
+  top: 819px;
+}
+
+/* "CONTACT US" text */
+.about-us .learn-more-2 {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  height: 113px;
+  margin-top: -1px;
+  width: 445px;
+}
+
+/* footer */
+.about-us .footer {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  justify-content: flex-start;
+  margin-top: 16px;
+  min-width: 1446px;
+  width: auto;
+}
+
+/* ? */
+.about-us .overlap-group-3 {
+  height: 85px;
+  position: relative;
+  width: 1440px;
+}
+
+/* instagram icon */
+.about-us .icon-instagram {
+  height: 85px;
+  left: 1181px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 72px;
+}
+
+
+/* email icon */
+.about-us .icon-mail {
+  height: 43px;
+  left: 1023px;
+  position: absolute;
+  top: 27px;
+  width: 52px;
+}
+
+/* background rectangle for "DONATE" */
+.about-us .rectangle-46-1 {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 38px;
+  left: 817px;
+  position: absolute;
+  top: 24px;
+  width: 150px;
+}
+
+/* "DONATE text */
+.about-us .donate {
+  left: 843px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+}
+
+/* ? */
+.about-us .flex-row-3 {
+  align-items: center;
+  display: flex;
+}
+
+/* ? */
+.about-us .our {
+  letter-spacing: 0;
+  line-height: normal;
+}

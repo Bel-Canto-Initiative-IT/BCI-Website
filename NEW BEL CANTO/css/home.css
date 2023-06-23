@@ -1,0 +1,335 @@
+/* screen - home */
+
+/*alignment/ layout of background vid text*/
+.home {
+  align-items: center;
+  background-color: var(--white-linen);
+  border: 0vw none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* positioning elements in front of background vid*/
+
+#frontSection{
+  height: 58vw;
+  /* margin-left: 4.0px; */
+}
+
+#ourImpactSection{
+  height: 60vw;
+  margin-left: 14%;
+}
+
+#ourTeamSection{
+  height: 56.5vw;
+  margin-left: 0;
+}
+
+#homeFooter{
+  top: 50vw;
+  /* width: 1440px; */
+  width:100%;
+}
+
+#frontSectionMascot{
+  height: 35vw;
+  left: 80vw;
+  top: 30vw;
+  width: 9vw;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+/*mascot image*/
+
+/*mascot*/
+#ourTeamSectionMascot{
+ height: 15vw;
+  left: 2vw;
+  top: 8vw;
+  width: 13.2vw;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+/*main text on front page*/
+.title {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 800;
+  left: 25%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  font-size: 7vw;
+  top: 15vw;
+  width: 50%;
+}
+
+/*slogan text*/
+.frontSectionSubTitle{
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxl);
+  font-style: italic;
+  font-weight: 500;
+  left: 20%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  font-size: 3vw;
+  top: 35vw;
+  width: auto;
+}
+
+/*Learn More button*/
+#frontSectionButton {
+  background-color: var(--white-linen);
+  height: 5vw;
+  left: 40%;
+  width: 24vw;
+  top: 42vw;
+}
+#frontSectionButtonText{
+  height: 5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 49vw;
+  text-align: center;
+  width: 100%;
+  font-size: 2vw;
+}
+/*Learn More text*/
+
+
+/*header spacing*/
+.headerNavBarSection{
+  align-items: flex-start;
+  gap: 0.5vw;
+  margin-top: 3vw;
+  height: 8vw;
+  width: 100%;
+}
+
+.frontSectionBackground {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  width: 100vw;
+  background-size: cover;
+}
+
+/*font Our Impact*/
+.ourImpactSectionHeader{
+  position: relative;
+  font-size: 7vw;
+  top: 3vw;
+  left: 10vw;
+}
+
+.our {
+  -webkit-text-stroke: 1px var(--black);
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-xxxxxl);
+  left: 18vw;
+  width: 50vw;
+}
+.ourImpactContainer{
+  line-height: normal;
+  position: absolute;
+  align-items: center;
+  letter-spacing: 0;
+  text-align: center;
+    
+}
+/*performances text*/
+#ourImpactTextOne{
+  left: 0.5vw;
+  top: 20vw;
+
+}
+#ourImpactTextTwo{
+  left: 25.5vw;
+  top: 25vw;
+}
+#ourImpactTextThree{
+  left: 50.5vw;
+  top: 20vw;
+}
+
+#ourImpactTextFour{
+  left: 70vw;
+  top: 25vw;
+}
+
+#ourImpactImageContainerOne{
+  left: 0;
+  top: 30vw;
+}
+#ourImpactImageContainerTwo{
+  left: 23vw;
+  top: 35vw;
+}
+#ourImpactImageContainerThree{
+  left: 46vw;
+  top: 30vw;
+}
+#ourImpactImageContainerFour{
+  left: 69vw;
+  top: 35vw;
+}
+
+.ourImpactImage {
+  height: 18vw;
+  width: 18vw;
+}
+
+/*youth text*/
+
+
+.ourImpactSubTitle {
+  color: #5b554d;
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 700;
+  left: 30vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12vw;
+  /* width: 100vw; */
+}
+
+/*footer*/
+.footer {
+  background-color: var(--shadow-blue);
+  height: 6vw;
+  left: 0;
+  position: relative;
+  margin-bottom: 0%;
+  top: 0.5vw;
+  width: 100%;
+}
+
+.ourTeamLeft {
+  align-items: flex-end;
+  gap: 30vw;
+  left: 5vw;
+  /* min-height: 322px; */
+  position: absolute;
+  /* top: -1px; */
+  width: 100vw;
+}
+
+.ourTeamTitleSection {
+  height: 20vw;
+  position: relative;
+}
+
+.our-team {
+  font-size: 6vw;
+  left: 4vw;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 40vw;
+}
+
+.ourTeamLine {
+  left: 0;
+  position: absolute;
+  top: 8vw;
+  width: 46vw;
+}
+
+.we-are-a-youth-lead {
+  color: transparent;
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 3vw;
+  position: absolute;
+  top: 10vw;
+  /* margin-right: 1.0px; */
+  /* min-height: 169px; */
+  width: 45vw;
+}
+
+.colorBlack {
+  color: var(--black);
+}
+
+.colorPurple{
+  color: #7182d6;
+}
+
+.ourTeamImageOne{
+  height: 30vw;
+  left: 53vw;
+  position: absolute;
+  top: 0vw;
+  width: 43.3vw;
+}
+
+.ourTeamButtonSection {
+  height: 366px;
+  left: 0;
+  position: absolute;
+  top: 28vw;
+  width: 283px;
+}
+
+#ourTeamMeetUsButton {
+  background-color: #b4bde9;
+  height: 5vw;
+  left: 5vw;
+  width: 13vw;
+  top: 0;
+}
+
+/*learn more button*/
+#ourTeamMeetUsText {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: 1.5vw;
+  font-weight: 800;
+  height: 5vw;
+  top: 0;
+  width: 20vw;
+}
+
+#ourTeamGetInvolvedText {
+  font-size: 2vw;
+  font-weight: 800;
+  height: 6.5vw;
+  top: 5vw;
+  width: 25vw;
+}
+#ourTeamGetInvolvedButton {
+  border: 0.2vw solid;
+  border-color: var(--black);
+  height: 7vw;
+  left: 38vw;
+  width: 25vw;
+  top: 35vw;
+}
+
+

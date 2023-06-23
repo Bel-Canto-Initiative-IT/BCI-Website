@@ -1,14 +1,15 @@
 /* screen - our-team */
 
 .our-team {
-  align-items: flex-start;
+  align-items: center;
   background-color: var(--white-linen);
-  border: 1px none;
+  border: 0vw none;
   display: flex;
   flex-direction: column;
-  height: 3341px;
+  height: 100%;
   overflow: hidden;
-  width: 1440px;
+  max-width: 100%;
+  position: relative;
 }
 
 .our-team .header {
@@ -859,17 +860,9 @@
   width: 144px;
 }
 
-.our-team .footer {
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 1;
-  justify-content: flex-start;
-  margin-left: 1px;
-  margin-top: 30px;
-  min-width: 1446px;
-  width: auto;
+#ourTeamFooter{
+  top: 1000px;
+  width: 1440px;
 }
 
 .our-team .overlap-group-2 {
@@ -886,14 +879,7 @@
   width: 72px;
 }
 
-.our-team .icon-social-youtube {
-  cursor: pointer;
-  height: 35px;
-  left: 1118px;
-  position: absolute;
-  top: 27px;
-  width: 34px;
-}
+
 
 .our-team .icon-mail {
   height: 43px;

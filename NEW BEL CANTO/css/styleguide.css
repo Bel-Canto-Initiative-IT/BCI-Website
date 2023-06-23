@@ -13,13 +13,13 @@
   --wistful: #98a4de;
   --zorba: #a29c93;
  
-  --font-size-l: 30px;
-  --font-size-m: 20px;
-  --font-size-xl: 32px;
+  --font-size-l: 2.1vw;
+  --font-size-m: 1.5vw;
+  --font-size-xl: 3.2vw;
   --font-size-xxl: 36px;
   --font-size-xxxl: 40px;
-  --font-size-xxxxl: 50px;
-  --font-size-xxxxxl: 88px;
+  --font-size-xxxxl: 3.6vw;
+  --font-size-xxxxxl: 7.5vw;
  
   --font-family-radio_canada: "Radio Canada", Helvetica;
   --font-family-raleway: "Raleway", Helvetica;
@@ -122,7 +122,7 @@
 .raleway-semi-bold-shadow-blue-24px {
   color: var(--shadow-blue);
   font-family: var(--font-family-raleway);
-  font-size: 24px;
+  font-size: 1.6vw;
   font-style: normal;
   font-weight: 600;
 }
