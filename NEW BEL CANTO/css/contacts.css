@@ -7,25 +7,19 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 1719px;
+  height: 100%;
   overflow: hidden;
-  width: 1440px;
+  width: 100%;
 }
 
 /* header */
 .contacts .header {
-  align-items: center;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 1;
-  gap: 31px;
-  justify-content: flex-start;
-  margin-left: 70px;
-  margin-top: 50px;
-  min-width: 1112px;
-  width: auto;
-}
+    align-items: flex-start;
+    gap: 0.5vw;
+    margin-top: 3vw;
+    height: 8vw;
+    width: 100%;
+  }
 
 /* top left header logo */
 .contacts .bci-logo-1-modified-2 {
@@ -278,70 +272,91 @@
 
 /* footer */
 .contacts .footer {
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 1;
-  justify-content: flex-start;
-  margin-top: 59px;
-  min-width: 1446px;
-  width: auto;
+  background-color: var(--shadow-blue);
+  left: 0;
+  position: relative;
+  margin-bottom: 0%;
+  top: 0.5vw;
+  width: 100%;
+  height: 5vw;
+}
+
+
+/*Belcanto 2022 text*/
+.bel-canto-2022 {
+  font-size: 1.5vw;
+  height: 2.7vw;
+  margin-left: 18vw !important;
+  margin-bottom: 3.5vw;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+/*copyright symbol*/
+.contacts .copyright {
+    color: #ffffff;
+    font-family: 'Raleway', Helvetica;
+    font-size: 3vw;
+    font-weight: 400;
+    left: 8vw;
+    width: auto;
+    position: absolute;
 }
 
 /* something in the footer */
 .contacts .overlap-group-2 {
-  height: 85px;
+  height: 5vw;
+  left: 0;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 /* instagram icon */
 .contacts .icon-instagram {
-  height: 85px;
-  left: 1181px;
-  object-fit: cover;
-  top: 0;
-  width: 72px;
+  height: 2.7vw;
+  left: 85vw;
+  top: 1.4vw;
+  width: 2.7vw;
 }
 
 /* youtube icon */
 .contacts .icon-social-youtube {
-  cursor: pointer;
-  height: 35px;
-  left: 1128px;
-  position: absolute;
-  top: 27px;
-  width: 35px;
+  height: 2.6vw;
+  margin-left: 77.8vw !important; 
+  margin-top: 1.29vw;
+  width: 2.7vw;
+  vertical-align: middle;
+
 }
 
 /* email icon */
 .contacts .icon-mail {
-  height: 43px;
-  left: 1032px;
-  top: 27px;
-  width: 53px;
+  height: 3vw;
+  left: 70vw;
+  top: 1.5vw;
+  width: 3.5vw;
 }
 
 /* background rectangle for "donate" button */
-.contacts .rectangle-46 {
+.contacts .donateButton {
   background-color: var(--white);
-  border-radius: 15px;
+  border-radius: 1vw;
   cursor: pointer;
-  height: 38px;
-  left: 817px;
+  height: 2.3vw;
+  left: 57vw;
   position: absolute;
-  top: 24px;
-  width: 150px;
+  top: 1.5vw;
+  width: 10vw;
 }
 
 /* "donate" button text */
 .contacts .donate {
   cursor: pointer;
-  left: 843px;
+  left: 59vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 30px;
+  top: 1.5vw;
 }
