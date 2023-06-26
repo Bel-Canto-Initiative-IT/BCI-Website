@@ -2,9 +2,7 @@
 
 /* root */
 .contacts {
-  align-items: flex-start;
   background-color: var(--white-linen);
-  border: 1px none;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -14,100 +12,101 @@
 
 /* header */
 .contacts .header {
-    align-items: flex-start;
-    gap: 0.5vw;
-    margin-top: 3vw;
-    height: 8vw;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  height: 5vw;
+  left: 15%;
+  position: absolute;
+  width: 100%;
   }
 
 /* top left header logo */
 .contacts .bci-logo-1-modified-2 {
-  height: 54px;
-  object-fit: cover;
-  width: 60px;
+  width: 5vw;
+  height: auto;
 }
 
 /* gap between header and title */
 .contacts .flex-col {
   flex-direction: column;
-  gap: 2px;
-  margin-bottom: 3.16px;
-  min-height: 44px;
-  width: 1011px;
+  margin-top: 3vw;
 }
 
 /* first 3 links inside header */
 .contacts .flex-row {
-  gap: 25px;
-  margin-left: 0.04px;
-  min-width: 1011px;
+  margin-left: 0;
+  width: 100%;
+  align-items: stretch;
 }
 
 /* "HOME" link */
 .contacts .place {
   cursor: pointer;
-  min-height: 36px;
-  width: 100px;
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 2vw;
+  font-size: 2.2vw;
 }
 
 /* "ABOUT US" link */
 .contacts .about-us {
   cursor: pointer;
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 36px;
-  width: 173px;
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 2.5vw;
+  font-size: 2.2vw;
 }
 
 /* "OUR TEAM" link */
 .contacts .our-team {
   cursor: pointer;
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 40px;
-  width: 184px;
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 3vw;
+  font-size: 2.2vw;
 }
 
-/* last 2 links inside header */
-.contacts .overlap-group5 {
-  height: 40px;
-  position: relative;
-  width: 479px;
-}
 
 /* "INITIATIVES" link */
 .contacts .initiatives {
   cursor: pointer;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 257px;
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 3.5vw;
+  font-size: 2.2vw;
 }
 
 /* "CONTACT US" link */
 .contacts .place-1 {
-  left: 222px;
-  position: absolute;
-  top: 0;
-  width: 257px;
+  cursor: pointer;
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 4vw;
+  font-size: 2.2vw;
+
 }
 
 /* thin line below links in header */
 .contacts .line-1 {
-  height: 2px;
-  width: 915px;
+  margin-left: 7.3vw;
+  margin-top: -1.1vw;
+  margin-left: 7.3vw;
+  height: 0.2vw;
 }
 
 /* title section */
 .contacts .contacts-title-sction {
   align-items: flex-start;
-  display: flex;
-  height: 376px;
-  margin-top: 54px;
-  min-width: 1444px;
+  font-size: 7vw;
+  margin-top: 0vw;
+  text-align: center;
 }
 
 /* root for title section */
@@ -124,17 +123,13 @@
 
 /* title text */
 .contacts .title {
-  align-self: center;
   color: var(--black);
   font-family: var(--font-family-raleway);
-  font-size: var(--font-size-xxxxxl);
+  font-size: 8vw;
   font-weight: 800;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-right: 96.0px;
-  min-height: 98px;
+  margin-top: 5vw;
   text-align: center;
-  width: 618px;
+  margin-left: 2em;
 }
 
 /* text below title */
