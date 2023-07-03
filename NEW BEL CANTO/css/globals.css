@@ -283,3 +283,7 @@ body {
   letter-spacing: 0;
   line-height: normal;
 }
+
+.emptyDiv {
+  margin: 1.5vw;
+}
