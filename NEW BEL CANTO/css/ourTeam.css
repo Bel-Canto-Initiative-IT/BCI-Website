@@ -65,15 +65,31 @@
     margin-bottom: 3vw;
   }
 
+  /* for each row of images */
+  .ourTeamRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+  }
+
+  #logisticsRow2 {
+    margin-left: 13.2vw;
+  }
+
+  /* for the [photo + name + role] of each person*/
+  .ourTeamRow g {
+    min-width: 15vw;
+    margin: 1.7vw;
+  }
+
   .ourTeamHeadshots img {
-    width: 10vw;
-    height: auto;
+    /* format the photos here */
   }
 
   .ourTeamHeadshots p {
     color: #5B554D;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-family: var(--font-family-raleway);
     font-style: normal;
     font-weight: 800;
@@ -84,7 +100,7 @@
   .ourTeamHeadshots p + p {
     color: #5B554D;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: var(--font-family-raleway);
     font-style: normal;
     font-weight: 400;
