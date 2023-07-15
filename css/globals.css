@@ -287,3 +287,7 @@ body {
 .emptyDiv {
   margin: 1.5vw;
 }
+
+#currentPage {
+  font-weight: 800;
+}
