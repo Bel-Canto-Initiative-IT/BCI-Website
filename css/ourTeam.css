@@ -22,11 +22,18 @@
   }
   
   /* for the navbar */
+  .ourTeamHeaderContainer {
+    background-color: var(--white-linen);
+    min-width: 100vw;
+  }
+
+  /* for the navbar */
   .ourTeamHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 2vw;
+    margin-left: 11vw;
   }
   
   /* for the logo in the navbar | <img/> */

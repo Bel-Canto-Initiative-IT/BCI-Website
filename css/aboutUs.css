@@ -20,14 +20,21 @@
 }
 
 /* for the navbar */
+.aboutUsHeaderContainer {
+  background-color: #e1d7c7;
+  min-width: 100vw;
+}
+
+/* for the navbar */
 .aboutUsHeader {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 2vw;
+  margin-left: 11vw;
 }
 
-/* for the logo in the navbar | <img/> */
+/* for the logo in the navbar | <img /> */
 .aboutUsHeader img {
   width: 5vw;
   height: auto;
