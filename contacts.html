@@ -45,30 +45,40 @@
           <div class="overlap-group4">
             <h1 class="title">CONTACT US</h1>
             <p class="detail-detail-detail raleway-medium-black-32px">
-              detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail
-              detail detail detail detail detail 
+              Got a question? Want to collaborate with us? Shoot us a message! 
             </p>
           </div>
         </div>
 
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdBHl6QlOOV_48VEnQvdLVJZlDrXnKJVN-BSjIvqsvsyaVfTw/viewform?usp=sf_link">
-        <div class="contacts-send-message-section">
-          <div class="send-us-a-message">SEND US A MESSAGE</div>
-          <div class="overlap-group">
-            <div class="rectangle-3"></div>
-            <div class="place-2 place-3 raleway-bold-black-32px">NAME</div>
-          </div>
-          <div class="overlap-group">
-            <div class="rectangle-3"></div>
-            <div class="email-address raleway-bold-black-32px">EMAIL ADDRESS</div>
-          </div>
-          <div class="overlap-group2">
-            <div class="rectangle-3-1"></div>
-            <div class="message raleway-bold-black-32px">MESSAGE</div>
-          </div>
-          <div class="overlap-group-1"><div class="submit">SUBMIT</div></div>
-        </div>
+        <form method="post" action="https://script.google.com/macros/s/AKfycby9Madw1S-QBW66j_HCk4V5oqGlPwwvsBtgRrlygrq4zkCpIhsf8wbdZFLzyUHKK7imTg/exec"
+              name = "contactForm" id = "contactForm">
+
+              <div class="contacts-send-message-section">
+
+              <input type ="text" class = "form-control" placeholder = "Name" id = "name" name = "name"/>
+              <br>
+              <input type ="email" class = "form-control" placeholder = "Email" id = "email" name = "email"/>
+              <br>
+              <textarea id = "comments" class = "form-control" placeholder="Message" name = "message"></textarea>
+              <br>
+              <input type = "submit" value = "SUBMIT" class="overlap-group-1" id = "submit" />
+
       </form>
+
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby9Madw1S-QBW66j_HCk4V5oqGlPwwvsBtgRrlygrq4zkCpIhsf8wbdZFLzyUHKK7imTg/exec'
+        const form = document.forms['contactForm']
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thank you! your form is submitted successfully." ))
+          .then(() => {  window.location.reload(); })
+          .catch(error => console.error('Error!', error.message))
+        })
+        </script>
+
 
         <footer class="footer" id ="contactsFooter">
           <div class="overlap-group-2">
@@ -100,6 +110,7 @@
             </a>
             
           </div>
+
         </footer>
       </div>
     </div>

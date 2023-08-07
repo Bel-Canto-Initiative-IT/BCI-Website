@@ -109,7 +109,7 @@
   text-align: center;
 }
 
-/* root for title section */
+/* holds CONTACT US header + subtitle text */
 .contacts .overlap-group4 {
   align-items: flex-start;
   background-color: #cfd6f8;
@@ -121,7 +121,7 @@
   width: 1440px;
 }
 
-/* title text */
+/* CONTACT US text */
 .contacts .title {
   color: var(--black);
   font-family: var(--font-family-raleway);
@@ -132,7 +132,7 @@
   margin-left: 2em;
 }
 
-/* text below title */
+/* text below CONTACT US */
 .contacts .detail-detail-detail {
   letter-spacing: 0;
   line-height: normal;
@@ -152,117 +152,53 @@
   width: 1279px;
 }
 
-/* "send us a message" text */
-.contacts .send-us-a-message {
-  color: var(--black);
-  font-family: var(--font-family-raleway);
-  font-size: var(--font-size-xxxxl);
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: normal;
-  padding-right: 10%;
-  margin-left: 10%;
-  min-height: 80px;
-  text-align: center;
+/*group class for all input boxes*/
+.contacts .form-control {
+  margin-left: 10vw;
+  min-width: 50vw;
+  font-size: 2vw;
+  min-height: 4vw;
+  max-height: 6vw;
+  
 }
 
-/* root for input boxes */
-.contacts .overlap-group {
-  height: 138px;
-  margin-left: -1px;
-  margin-top: 29px;
-  position: relative;
-  width: 1272px;
+@media screen and (max-width: 768px) {
+  .contacts .form-control {
+    font-size: 4.5vw; /* Minimum font size */
+    min-height: 6vw;
+  }
 }
 
-/* first 2 input boxes */
-.contacts .rectangle-3 {
-  background-color: var(--pearl-bush);
-  border: 1px solid;
-  border-color: var(--black);
-  height: 56px;
-  left: 0;
-  position: absolute;
-  top: 59px;
-  width: 879px;
-}
-
-/* title for 1st input box */
-.contacts .place-2 {
-  left: 1px;
-  position: absolute;
-  top: 0;
-  width: 1271px;
-}
-
-/* title for 2nd input box */
-.contacts .email-address {
-  left: 1px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 1271px;
-}
-
-/* root for 3rd input box */
-.contacts .overlap-group2 {
-  height: 352px;
-  margin-left: -1px;
-  margin-top: 29px;
-  position: relative;
-  width: 1272px;
-}
-
-/* 3rd input box */
-.contacts .rectangle-3-1 {
-  background-color: var(--pearl-bush);
-  border: 1px solid;
-  border-color: var(--black);
-  height: 293px;
-  left: 0;
-  position: absolute;
-  top: 59px;
-  width: 879px;
-}
-
-/* title for 3rd input box */
-.contacts .message {
-  left: 1px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 1271px;
-}
-
-/* background rectangle for "submit" button */
+/* submit" button */
 .contacts .overlap-group-1 {
-  align-items: flex-start;
-  align-self: center;
+  align-items: center;
   background-color: #a5b0e5;
-  border-radius: 50px;
-  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 2.5vw;
   display: flex;
-  height: 125px;
-  justify-content: flex-end;
-  margin-right: 424.0px;
-  margin-top: 53px;
-  min-width: 331px;
-  padding: 33px 25px;
-}
+  height: 6vw;
+  justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vw;
+  min-width: 15vw;
+  margin-bottom: 5vw;
 
-/* "submit" button text */
-.contacts .submit {
   color: var(--black);
   font-family: var(--font-family-raleway);
-  font-size: 48px;
+  font-size: 2vw;
   font-weight: 600;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 57px;
   text-align: center;
-  width: 272px;
+  padding: 0.5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts .overlap-group-1 {
+    font-size: 4vw; /* Minimum font size */
+    min-width: 20vw;
+    font-size: 3vw;
+  }
 }
 
 /* footer */
