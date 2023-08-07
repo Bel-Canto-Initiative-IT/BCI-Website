@@ -1,0 +1,142 @@
+/* formatting for the body of the document */
+.contactBody {
+  background-color: var(--white-linen);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* formatting for the section headers | <h2> */
+.contactBody h2 {
+  color: black;
+  background-color: #E1D7C7;
+  font-family: var(--font-family-raleway);
+  font-weight: 500;
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  min-width: 100vw;
+}
+
+/* for the navbar */
+.contactHeaderContainer {
+  background-color: var(--white-linen);
+  min-width: 100vw;
+}
+
+/* for the navbar */
+.contactHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2vw;
+  margin-left: 11vw;
+}
+
+/* for the logo in the navbar | <img/> */
+.contactHeader img {
+  width: 5vw;
+  height: auto;
+}
+
+/* for the links in the navbar | <a> */
+.contactHeader a {
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 2.5vw;
+  font-size: 2.5vw;
+}
+
+/* for the rectangle vector in the navbar | <svg> */
+.contactHeader svg {
+  fill: black;
+  margin-left: 7.3vw;
+  margin-top: -4.7vw;
+}
+
+.contactTitle h1 {
+  color: black;
+  font-family: var(--font-family-raleway);
+  font-weight: 700;
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.textBelowTitle {
+  color: #1E1E1E;
+  font-family: var(--font-family-raleway);
+  font-weight: 300;
+  font-size: 1.7vw;
+  text-align: center;
+  line-height: 3vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+/* footer (utilizing grids) */
+.contactFooter {
+  background-color: var(--shadow-blue);
+  min-width: 100vw;
+  overflow-y: hidden;
+  display: grid;
+  
+  /* create a grid with 3 columns that occupy 100% (1.00) of the screen*/
+  grid-template-columns: repeat(3, 1.00fr);
+}
+
+/* grid column 1 -> copyright */
+.contactFooterLeft {
+ grid-column: 1;
+ padding-left: 3vw;
+}
+
+.contactFooterLeft p {
+  /* for the plain text in the footer | <p> */
+  color: white;
+  font-size: 2vw;
+  font-family: var(--font-family-raleway);
+  margin-top: 1.5vw;
+}
+
+/* grid column 2 -> donate button */
+.contactFooterCenter {
+  grid-column: 2;
+  padding-left: 8vw;
+}
+
+.contactFooterCenterButton {
+  position: absolute;
+  fill: white;
+  margin-top: 1vw;
+
+}
+
+.contactFooterCenterText {
+  text-decoration: none;
+  position: absolute;
+  font-size: 2vw;
+  font-weight: 600;
+  color: var(--shadow-blue);
+  font-family: var(--font-family-raleway);
+  padding-left: 3.6vw;
+  margin-top: 1.75vw;
+}
+
+/* grid column 3 -> social icons */
+.contactFooterRight {
+  grid-column: 3;
+  padding-left: 8vw;
+}
+
+.contactFooterRight img {
+  width: 3.5vw;
+  height: auto;
+  margin-right: 4vw;
+  margin-bottom: 0.5vw;
+  margin-top: 1vw;
+}
