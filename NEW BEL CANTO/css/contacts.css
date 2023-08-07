@@ -146,7 +146,7 @@
   align-self: flex-end;
   display: flex;
   flex-direction: column;
-  margin-right: -80px;
+  margin-right: -4vw;
   margin-top: 68px;
   min-height: 973px;
   width: 1279px;
@@ -160,10 +160,10 @@
   font-weight: 800;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 68px;
+  padding-right: 10%;
+  margin-left: 10%;
   min-height: 80px;
   text-align: center;
-  width: 719px;
 }
 
 /* root for input boxes */
