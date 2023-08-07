@@ -73,46 +73,41 @@
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => alert("Thank you! your form is submitted successfully." ))
+          .then(response => alert("Thank you! Your form has been submitted successfully." ))
           .then(() => {  window.location.reload(); })
-          .catch(error => console.error('Error!', error.message))
+          .catch(error => console.error('Error! Please try again.', error.message))
         })
         </script>
 
 
-        <footer class="footer" id ="contactsFooter">
-          <div class="overlap-group-2">
-            
-            <a href="https://www.instagram.com/belcantoinitiative/" target="_blank"
-              ><img class="icon-instagram icon" src="assets/footer/instagramIcon.png" alt="icon-instagram" /> </a
-            >
-            
-            <a href="https://www.youtube.com/channel/UC_tbFpp5-XoFCTCR3oaGKQA" target="_blank">
-              <div class="bel-canto-2022 raleway-normal-white-32px">
-                BelCanto 2022
-              </div>
-              <img class="icon-social-youtube" src="assets/footer/youtubeIcon.png" alt="icon &#34;social youtube&#34;" />
-            </a>
-            
-              </a
-            ><a href="mailto:belcantoinitiative@gmail.com" target="_blank"
-              ><img class="icon-mail icon" src="assets/footer/emailIcon.png" alt="icon-mail" />
-            </a>
-            <div class="copyright raleway-normal-white-32px">©</div>
-            <a href="https://www.gofundme.com/f/melodies-for-a-cause?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1"
-              target="_blank"
-            >
-              <div class="donateButton"></div></a
-            ><a
-              href="https://www.gofundme.com/f/melodies-for-a-cause?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1"
-              target="_blank"
-              ><div class="donate raleway-semi-bold-shadow-blue-24px">DONATE</div>
-            </a>
-            
-          </div>
-
-        </footer>
+         <!-- Footer section -->
+    <footer class="contactFooter">
+      <!-- copyright text -->
+      <div class="contactFooterLeft">
+          <p>© Bel Canto 2022</p>
       </div>
-    </div>
+      <!-- donate button -->
+      <div class="contactFooterCenter">
+        <a class="contactFooterCenterText" href="https://www.gofundme.com/f/melodies-for-a-cause" target="_blank">DONATE</a>
+          <a class="contactFooterCenterButton" href="https://www.gofundme.com/f/melodies-for-a-cause" target="_blank">
+              <svg width="15vw" height="3.5vw">
+                  <rect width="15vw" height="3.5vw" rx="1.2vw"/>
+              </svg>
+          </a>
+          
+      </div>
+      <!-- social icons -->
+      <div class="contactFooterRight">
+          <a href="mailto:belcantoinitiative@gmail.com" target="_blank">
+              <img src="assets/footer/emailIcon.png" alt="Bel Canto's Email" />
+          </a>
+          <a href="https://www.youtube.com/channel/UC_tbFpp5-XoFCTCR3oaGKQA" target="_blank">
+              <img src="assets/footer/youtubeIcon.png" alt="Bel Canto's YouTube Channel" />
+          </a>
+          <a href="href=https://www.instagram.com/belcantoinitiative" target="_blank">
+              <img src="assets/footer/instagramIcon.png" alt="Bel Canto's Instagram"/>
+          </a>
+      </div>
+  </footer>
   </body>
 </html>

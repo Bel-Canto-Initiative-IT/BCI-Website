@@ -201,93 +201,71 @@
   }
 }
 
-/* footer */
-.contacts .footer {
+/* footer (utilizing grids) */
+.contactFooter {
   background-color: var(--shadow-blue);
-  left: 0;
-  position: relative;
-  margin-bottom: 0%;
-  top: 0.5vw;
-  width: 100%;
-  height: 5vw;
-}
-
-
-/*Belcanto 2022 text*/
-.bel-canto-2022 {
-  font-size: 1.5vw;
-  height: 2.7vw;
-  margin-left: 18vw !important;
-  margin-bottom: 3.5vw;
-  display: inline-block;
-  vertical-align: middle;
+  min-width: 100vw;
+  overflow-y: hidden;
+  display: grid;
   
+  /* create a grid with 3 columns that occupy 100% (1.00) of the screen*/
+  grid-template-columns: repeat(3, 1.00fr);
 }
 
-/*copyright symbol*/
-.contacts .copyright {
-    color: #ffffff;
-    font-family: 'Raleway', Helvetica;
-    font-size: 3vw;
-    font-weight: 400;
-    left: 8vw;
-    width: auto;
-    position: absolute;
+/* grid column 1 -> copyright */
+.contactFooterLeft {
+ grid-column: 1;
+ padding-left: 3vw;
 }
 
-/* something in the footer */
-.contacts .overlap-group-2 {
-  height: 5vw;
-  left: 0;
-  position: relative;
-  width: 100%;
+.contactFooterLeft p {
+  /* for the plain text in the footer | <p> */
+  color: white;
+  font-size: 2vw;
+  font-family: var(--font-family-raleway);
+  margin-top: 1.5vw;
 }
 
-/* instagram icon */
-.contacts .icon-instagram {
-  height: 2.7vw;
-  left: 85vw;
-  top: 1.4vw;
-  width: 2.7vw;
+/* grid column 2 -> donate button */
+.contactFooterCenter {
+  grid-column: 2;
+  padding-left: 8vw;
 }
 
-/* youtube icon */
-.contacts .icon-social-youtube {
-  height: 2.6vw;
-  margin-left: 77.8vw !important; 
-  margin-top: 1.29vw;
-  width: 2.7vw;
-  vertical-align: middle;
+.contactFooterCenterButton {
+  position: relative; /* Change to relative positioning */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center;
+  justify-content: center;
+  background-color: #a5b0e5; /* Add a background color */
+  border-radius: 3vw;
+  margin-top: 2vw;
 
 }
 
-/* email icon */
-.contacts .icon-mail {
-  height: 3vw;
-  left: 70vw;
-  top: 1.5vw;
+.contactFooterCenterText {
+  position: absolute;
+  top: 50%; /* Position text vertically in the middle */
+  left: 50%; /* Position text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Adjust for exact centering */
+  text-decoration: none;
+  font-size: 2vw;
+  font-weight: 600;
+  color: var(--shadow-blue);
+  font-family: var(--font-family-raleway);
+  z-index: 1; /* Bring the text above the button */
+}
+
+/* grid column 3 -> social icons */
+.contactFooterRight {
+  grid-column: 3;
+  padding-left: 8vw;
+}
+
+.contactFooterRight img {
   width: 3.5vw;
-}
-
-/* background rectangle for "donate" button */
-.contacts .donateButton {
-  background-color: var(--white);
-  border-radius: 1vw;
-  cursor: pointer;
-  height: 2.3vw;
-  left: 57vw;
-  position: absolute;
-  top: 1.5vw;
-  width: 10vw;
-}
-
-/* "donate" button text */
-.contacts .donate {
-  cursor: pointer;
-  left: 59vw;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 1.5vw;
+  height: auto;
+  margin-right: 4vw;
+  margin-bottom: 0.5vw;
+  margin-top: 1vw;
 }
