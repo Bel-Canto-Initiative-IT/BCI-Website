@@ -1,0 +1,178 @@
+/* formatting for the body of the document */
+.ourTeamBody {
+    background-color: var(--white-linen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* formatting for the section headers | <h2> */
+  .ourTeamBody h2 {
+    color: black;
+    background-color: #E1D7C7;
+    font-family: var(--font-family-raleway);
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    min-width: 100vw;
+  }
+  
+  /* for the navbar */
+  .ourTeamHeaderContainer {
+    background-color: var(--white-linen);
+    min-width: 100vw;
+  }
+
+  /* for the navbar */
+  .ourTeamHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 11vw;
+  }
+  
+  /* for the logo in the navbar | <img/> */
+  .ourTeamHeader img {
+    width: 5vw;
+    height: auto;
+  }
+  
+  /* for the links in the navbar | <a> */
+  .ourTeamHeader a {
+    color: black;
+    font-family: var(--font-family-raleway);
+    text-decoration: none;
+    padding-left: 2.5vw;
+    font-size: 2.5vw;
+  }
+  
+  /* for the rectangle vector in the navbar | <svg> */
+  .ourTeamHeader svg {
+    fill: black;
+    margin-left: 7.3vw;
+    margin-top: -4.7vw;
+  }
+
+  .ourTeamTitle h1 {
+    color: black;
+    font-family: var(--font-family-raleway);
+    font-weight: 700;
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 2vw;
+  }
+  
+  .rectBelowTitle {
+    fill: black;
+    margin-bottom: 3vw;
+  }
+
+  /* for each row of images */
+  .ourTeamRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+  }
+
+  #logisticsRow2 {
+    margin-left: 13.2vw;
+  }
+
+  /* for the [photo + name + role] of each person*/
+  .ourTeamRow g {
+    min-width: 15vw;
+    margin: 1.7vw;
+  }
+
+  .ourTeamHeadshots img {
+    /* format the photos here */
+  }
+
+  .ourTeamHeadshots p {
+    color: #5B554D;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: var(--font-family-raleway);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  /* this applies only to <p> elements that are directly after another <p> element */
+  .ourTeamHeadshots p + p {
+    color: #5B554D;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: var(--font-family-raleway);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* footer (utilizing grids) */
+  .ourTeamFooter {
+    background-color: var(--shadow-blue);
+    min-width: 100vw;
+    overflow-y: hidden;
+    display: grid;
+    
+    /* create a grid with 3 columns that occupy 100% (1.00) of the screen*/
+    grid-template-columns: repeat(3, 1.00fr);
+  }
+  
+  /* grid column 1 -> copyright */
+  .ourTeamFooterLeft {
+   grid-column: 1;
+   padding-left: 3vw;
+  }
+  
+  .ourTeamFooterLeft p {
+    /* for the plain text in the footer | <p> */
+    color: white;
+    font-size: 2vw;
+    font-family: var(--font-family-raleway);
+    margin-top: 1.5vw;
+  }
+  
+  /* grid column 2 -> donate button */
+  .ourTeamFooterCenter {
+    grid-column: 2;
+    padding-left: 8vw;
+  }
+  
+  .ourTeamFooterCenterButton {
+    position: absolute;
+    fill: white;
+    margin-top: 1vw;
+  
+  }
+  
+  .ourTeamFooterCenterText {
+    text-decoration: none;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 600;
+    color: var(--shadow-blue);
+    font-family: var(--font-family-raleway);
+    padding-left: 3.6vw;
+    margin-top: 1.75vw;
+  }
+  
+  /* grid column 3 -> social icons */
+  .ourTeamFooterRight {
+    grid-column: 3;
+    padding-left: 8vw;
+  }
+  
+  .ourTeamFooterRight img {
+    width: 3.5vw;
+    height: auto;
+    margin-right: 4vw;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+  }

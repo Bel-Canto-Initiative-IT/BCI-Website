@@ -1,0 +1,171 @@
+/* formatting for the body of the document */
+.initiativesBody {
+    background-color: var(--white-linen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* for the navbar */
+  .initiativesHeaderContainer {
+    background-color: #e1d7c7;
+    min-width: 100vw;
+  }
+
+  /* for the navbar */
+  .initiativesHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 11vw;
+  }
+  
+  /* for the logo in the navbar | <img/> */
+  .initiativesHeader img {
+    width: 5vw;
+    height: auto;
+  }
+  
+  /* for the links in the navbar | <a> */
+  .initiativesHeader a {
+    color: black;
+    font-family: var(--font-family-raleway);
+    text-decoration: none;
+    padding-left: 2.5vw;
+    font-size: 2.5vw;
+  }
+  
+  /* for the rectangle vector in the navbar | <svg> */
+  .initiativesHeader svg {
+    fill: black;
+    margin-left: 7.3vw;
+    margin-top: -4.7vw;
+  }
+
+  .initiativesSignUpContainer {
+    background-color: #e1d7c7;
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+  }
+
+  .initiativesSignUp {
+    width: 50vw;
+    margin-top: 2vw;
+  }
+
+  .initiativesSignUp h3 {
+    color: #5B554D;
+    text-align: right;
+    font-family: Sriracha;
+    font-size: 5vw;
+    line-height: 7vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .initiativesSignUp p {
+    color: #5B554D;
+    text-align: right;
+    font-family: Sriracha;
+    font-size: 2.75vw;
+    line-height: 4.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  /* FORMATTING FOR THE PLACEHOLDER IMAGE / REPLACE WITH ANYTHING */
+  .initiativesSignUp img {
+    width: 40vw;
+    height: auto;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+  }
+
+  /* SIGN UP button*/
+  .initiativesSignUp a {
+    color: black;
+    text-decoration: none;
+    background: #9CA5D1;
+    font-family: var(--font-family-raleway);
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.5vw 3vw 1.5vw 3vw; /* top padding, right padding, bottom padding, left padding */
+    box-shadow: 0vw 0.3vw 0.3vw 0vw rgba(0, 0, 0, 0.25); /* top, right, bottom, left, color(rgb) */
+    border-radius: 3vw;
+    margin-top: 2vw;
+    margin-left: 20vw;
+  }
+
+  #initiativesMascotSmiling {
+    position: absolute;
+    left: 2.5vw;
+    top: 32vw;
+    height: 20vw;
+  }
+
+  /* footer (utilizing grids) */
+  .initiativesFooter {
+    background-color: var(--shadow-blue);
+    min-width: 100vw;
+    overflow-y: hidden;
+    display: grid;
+    
+    /* create a grid with 3 columns that occupy 100% (1.00) of the screen*/
+    grid-template-columns: repeat(3, 1.00fr);
+  }
+  
+  /* grid column 1 -> copyright */
+  .initiativesFooterLeft {
+   grid-column: 1;
+   padding-left: 3vw;
+  }
+  
+  .initiativesFooterLeft p {
+    /* for the plain text in the footer | <p> */
+    color: white;
+    font-size: 2vw;
+    font-family: var(--font-family-raleway);
+    margin-top: 1.5vw;
+  }
+  
+  /* grid column 2 -> donate button */
+  .initiativesFooterCenter {
+    grid-column: 2;
+    padding-left: 8vw;
+  }
+  
+  .initiativesFooterCenterButton {
+    position: absolute;
+    fill: white;
+    margin-top: 1vw;
+  
+  }
+  
+  .initiativesFooterCenterText {
+    text-decoration: none;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 600;
+    color: var(--shadow-blue);
+    font-family: var(--font-family-raleway);
+    padding-left: 3.6vw;
+    margin-top: 1.75vw;
+  }
+  
+  /* grid column 3 -> social icons */
+  .initiativesFooterRight {
+    grid-column: 3;
+    padding-left: 8vw;
+  }
+  
+  .initiativesFooterRight img {
+    width: 3.5vw;
+    height: auto;
+    margin-right: 4vw;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+  }

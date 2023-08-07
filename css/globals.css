@@ -283,3 +283,11 @@ body {
   letter-spacing: 0;
   line-height: normal;
 }
+
+.emptyDiv {
+  padding: 1.5vw;
+}
+
+#currentPage {
+  font-weight: 800;
+}
