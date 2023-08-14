@@ -22,18 +22,11 @@
   }
   
   /* for the navbar */
-  .ourTeamHeaderContainer {
-    background-color: var(--white-linen);
-    min-width: 100vw;
-  }
-
-  /* for the navbar */
   .ourTeamHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 2vw;
-    margin-left: 11vw;
   }
   
   /* for the logo in the navbar | <img/> */
@@ -51,6 +44,11 @@
     font-size: 2.5vw;
   }
   
+  /* to make Initiatives bold in the header */
+.ourTeam {
+  font-weight: bold;
+}
+
   /* for the rectangle vector in the navbar | <svg> */
   .ourTeamHeader svg {
     fill: black;
@@ -90,7 +88,29 @@
   }
 
   .ourTeamHeadshots img {
-    /* format the photos here */
+    width: 14.25vw;
+    height: 19vw;
+    border: 0.7vw solid #BAC1DF;
+  }
+
+  .NinaW {
+    min-width: 17vw;
+    min-height: 23vw;
+  }
+
+  .JaniceL {
+    min-width: 17vw;
+    min-height: 23vw;
+  }
+
+  .StaceyK {
+    min-width: 17vw;
+    min-height: 23vw;
+  }
+
+  .YuanC {
+    min-width: 17vw;
+    min-height: 23vw;
   }
 
   .ourTeamHeadshots p {
