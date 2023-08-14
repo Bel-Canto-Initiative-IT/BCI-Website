@@ -22,18 +22,11 @@
   }
   
   /* for the navbar */
-  .ourTeamHeaderContainer {
-    background-color: var(--white-linen);
-    min-width: 100vw;
-  }
-
-  /* for the navbar */
   .ourTeamHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 2vw;
-    margin-left: 11vw;
   }
   
   /* for the logo in the navbar | <img/> */
@@ -51,6 +44,11 @@
     font-size: 2.5vw;
   }
   
+  /* to make Initiatives bold in the header */
+.ourTeam {
+  font-weight: bold;
+}
+
   /* for the rectangle vector in the navbar | <svg> */
   .ourTeamHeader svg {
     fill: black;
@@ -90,7 +88,8 @@
   }
 
   .ourTeamHeadshots img {
-    /* format the photos here */
+    max-width: 15vw;
+    max-height: 20vw;
   }
 
   .ourTeamHeadshots p {
