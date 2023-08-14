@@ -1,0 +1,292 @@
+/* formatting for the body of the document */
+.mffBody {
+    background-color: var(--white-linen);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* formatting for the section headers | <h2> */
+  .mffBody h2 {
+    color: black;
+    background-color: #E1D7C7;
+    font-family: var(--font-family-raleway);
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    min-width: 100vw;
+  }
+  
+  /* for the navbar */
+  .mffHeaderContainer {
+    background-color: var(--white-linen);
+    min-width: 100vw;
+  }
+
+  /* for the navbar */
+  .mffHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 11vw;
+  }
+  
+  /* for the logo in the navbar | <img/> */
+  .mffHeader img {
+    width: 5vw;
+    height: auto;
+  }
+  
+  /* for the links in the navbar | <a> */
+  .mffHeader a {
+    color: black;
+    font-family: var(--font-family-raleway);
+    text-decoration: none;
+    padding-left: 2.5vw;
+    font-size: 2.5vw;
+  }
+  
+  /* for the rectangle vector in the navbar | <svg> */
+  .mffHeader svg {
+    fill: black;
+    margin-left: 7.3vw;
+    margin-top: -4.7vw;
+  }
+
+  .mffTitle h1 {
+    color: black;
+    font-family: var(--font-family-raleway);
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+.headerInitiatives {
+  font-weight: bold;
+}
+
+  .description {
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 9vh;
+    flex-shrink: 0;
+    color: #000;
+    font-family: var(--font-family-raleway);
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+  }
+
+  .Header {
+    color: #000;
+    text-align: center;
+    font-family: var(--font-family-raleway);
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+.pictureStyle{
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 29.5vw;
+}
+
+.picture1 {
+  background-color: white; /* placeholder */
+  margin-left: 12vw;
+  width: 32vw;
+  height: 20vw;
+  border: 1.3vw solid #BAC1DF;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.picture2 {
+  background-color: white; /* placeholder */
+  margin-left: 12vw;
+  width: 32vw;
+  height: 20vw;
+  border: 1.3vw solid #BAC1DF;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.picture3 {
+  background-color: white; /* placeholder */
+  margin-left: 12vw;
+  width: 32vw;
+  height: 20vw;
+  border: 1.3vw solid #BAC1DF;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.picture4 {
+  background-color: white; /* placeholder */
+  margin-left: 12vw;
+  width: 32vw;
+  height: 20vw;
+  border: 1.3vw solid #BAC1DF;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.picture5 {
+  background-color: white; /* placeholder */
+  margin-left: 12vw;
+  width: 32vw;
+  height: 20vw;
+  border: 1.3vw solid #BAC1DF;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.picture6 {
+  background-color: white; /* placeholder */
+  margin-left: 12vw;
+  width: 32vw;
+  height: 20vw;
+  border: 1.3vw solid #BAC1DF;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+}
+.Header1 {
+  display: flex;
+  padding-left: 12vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  justify-content: center;
+  width: 43vw;
+}  
+
+.Header2 {
+  display: flex;
+  padding-left: 14vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  justify-content: center;
+  width: 43vw;
+}
+
+.Header3 {
+  display: flex;
+  padding-left: 12vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  justify-content: center;
+  width: 43vw;
+}
+
+.Header4 {
+  display: flex;
+  padding-left: 14vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  justify-content: center;
+  width: 43vw;
+}
+
+.Header5 {
+  display: flex;
+  padding-left: 12vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  justify-content: center;
+  width: 43vw;
+}
+
+.Header6 {
+  display: flex;
+  padding-left: 14vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  justify-content: center;
+  width: 43vw;
+}
+
+  .section1 {
+    display: flex;
+    padding-bottom: 42vh;
+  }
+
+  /* footer (utilizing grids) */
+  .mffFooter {
+    background-color: var(--shadow-blue);
+    min-width: 100vw;
+    overflow-y: hidden;
+    display: grid;
+    
+    /* create a grid with 3 columns that occupy 100% (1.00) of the screen*/
+    grid-template-columns: repeat(3, 1.00fr);
+  }
+  
+  /* grid column 1 -> copyright */
+  .mffFooterLeft {
+   grid-column: 1;
+   padding-left: 3vw;
+  }
+  
+  .mffFooterLeft p {
+    /* for the plain text in the footer | <p> */
+    color: white;
+    font-size: 2vw;
+    font-family: var(--font-family-raleway);
+    margin-top: 1.5vw;
+  }
+  
+  /* grid column 2 -> donate button */
+  .mffFooterCenter {
+    grid-column: 2;
+    padding-left: 8vw;
+  }
+  
+  .mffFooterCenterButton {
+    position: absolute;
+    fill: white;
+    margin-top: 1vw;
+  
+  }
+  
+  .mffFooterCenterText {
+    text-decoration: none;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 600;
+    color: var(--shadow-blue);
+    font-family: var(--font-family-raleway);
+    padding-left: 3.6vw;
+    margin-top: 1.75vw;
+  }
+  
+  /* grid column 3 -> social icons */
+  .mffFooterRight {
+    grid-column: 3;
+    padding-left: 8vw;
+  }
+  
+  .mffFooterRight img {
+    width: 3.5vw;
+    height: auto;
+    margin-right: 4vw;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+  }

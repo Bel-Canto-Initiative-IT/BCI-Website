@@ -1,0 +1,581 @@
+/* screen - home-landing */
+
+/*alignment/ layout of background vid text*/
+.home-landing {
+  align-items: center;
+  background-color: var(--white-linen);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* positioning elements in front of background vid*/
+.home-landing .overlap-group6 {
+  height: 70vw;
+  margin-left: 4.0px;
+  position: relative;
+  width: 100%;
+}
+
+.home-landing .overlap-group4 {
+  height: 10vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/*background vid size*/
+.home-landing .background-video {
+  height: 65vw;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/*mascot image*/
+.home-landing .plant-boi-classic-1 {
+  height: 35vw;
+  left: 87%;
+  top: 280%;
+  width: 9vw;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+/*main text on front page*/
+.home-landing .title {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 800;
+  left: 25%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  font-size: 7vw;
+  top: 18vw;
+  width: 50%;
+}
+
+/*slogan text*/
+.home-landing .bringing-hearts-toge {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxxl);
+  font-style: italic;
+  font-weight: 500;
+  left: 20%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  font-size: 3vw;
+  top: 42vw;
+  width: auto;
+}
+
+/*Learn More button*/
+.home-landing .primary-button {
+  align-items: flex-start;
+  background-color: var(--white-linen);
+  cursor: pointer;
+  display: flex;
+  height: 5vw;
+  left: 40%;
+  width: 24vw;
+  position: absolute;
+  top: 50vw;
+}
+
+/*Learn More text*/
+.home-landing .learn-more {
+  height: 5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 49vw;
+  text-align: center;
+  width: 100%;
+  font-size: 2vw;
+}
+
+.home-landing .header {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  height: 5vw;
+  justify-content: flex-start;
+  left: 10%;
+  min-width: 1016px;
+  padding: 0 0.0px;
+  position: absolute;
+  top: 2vw;
+  width: auto;
+}
+
+/*header logo*/
+.home-landing .bci-logo-1-modified-2 {
+  height: 6vw;
+  object-fit: cover;
+  width: 6vw;
+}
+
+/*header spacing*/
+.home-landing .flex-col-1 {
+  align-items: flex-start;
+  gap: 0.5vw;
+  margin-top: 3vw;
+  height: 8vw;
+  width: 100%;
+}
+
+/*header arrangement*/
+.home-landing .navbar-link-container {
+  align-items: flex-start;
+  display: flex;
+  height: 4vw;
+  left: 30%;
+  min-width: 22vw;
+}
+
+/*home header*/
+.home-landing .navbar-link-place {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  height: 7vw;
+  width: auto;
+  font-size: 2vw;
+}
+
+/*about us header*/
+.home-landing .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  height: 7vw;
+  width: auto;
+  font-size: 2vw;
+
+}
+
+/*our team header*/
+.home-landing .navbar-link-our-team {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 44px;
+  width: auto;
+  font-size: 2vw;
+
+}
+
+/*initiatives header*/
+.home-landing .navbar-link-initiatives {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 40px;
+  width: auto;
+  font-size: 2vw;
+
+}
+
+/*contact us header*/
+.home-landing .navbar-link-place-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  min-height: 44px;
+  width: auto;
+  font-size: 2vw;
+
+}
+
+/*line under header*/
+.home-landing .line-1 {
+  height: 0.4vw;
+  width: 61vw;
+  margin-right: 20%;
+  display: flex;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------*/
+
+/*Our Impact section*/
+.home-landing .home-our-impact-section {
+  align-items: flex-start;
+  align-items: center !important;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-left: 0.5vw;
+  width: 1260px;
+}
+
+/*arrangement of Our Impact header*/
+.home-landing .flex-col-2 {
+  align-items: center;
+  gap: 1px;
+  margin-left: 10px;
+  min-height: 259px;
+  width: 1070px;
+}
+
+/*font Our Impact*/
+.home-landing .our-impact {
+  font-size: 8vw;
+  display: flexbox;
+  top: 0.5vw;
+  text-align: center !important;
+  width: 100%;
+}
+
+/* text + subheadings below Our Impact*/
+.home-landing .overlap-group1 {
+  height: 2vw;
+  position: relative;
+  width: 100%;
+}
+
+/*performances text*/
+.home-landing .x10-performances {
+  margin-left: 0.5vw;
+  position: absolute;
+  font-size: 2vw;
+  top: 50%;
+}
+
+/*youth text*/
+.home-landing .x30-youths {
+  margin-left: 50%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
+
+.home-landing .last-updated-may-1-2023 {
+  color: #5b554d;
+  font-family: var(--font-family-raleway);
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 700;
+  left: 8%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center !important;
+  top: 0;
+  width: 85%;
+}
+
+/*images arrangement*/
+.home-landing .flex-row {
+  top: 7vw;
+  align-items: flex-start;
+  display: flex;
+  gap: 6vw;
+  height: 378px;
+  margin-left: -1.5px;
+  min-width: 1251px;
+}
+
+@media (max-width: 40em) {
+  .home-landing .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+/*filler images*/
+
+.home-landing .vector {
+  height: 25vw;
+  width: 25vw;
+}
+
+.home-landing .vector-1 {
+  height: 55vw;
+  width: 25vw;
+}
+
+
+.home-landing .flex-col {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-height: 376px;
+  width: 266px;
+}
+
+@media (max-width: 40em) {
+  .home-landing .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+.home-landing .x1000-fundraised {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 90px;
+  min-width: 191px;
+  text-align: center;
+}
+
+
+.home-landing .x10-partnerships {
+  margin-right: 1.0px;
+  font-size: 2vw;
+  min-height: 90px;
+  min-width: 224px;
+}
+
+.home-landing .overlap-group5 {
+  height: 764px;
+  margin-left: 6.0px;
+  margin-top: 95px;
+  position: relative;
+  width: 1446px;
+}
+
+.home-landing .overlap-group {
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 679px;
+  width: 1440px;
+}
+
+/*footer*/
+.home-landing .footer {
+  background-color: var(--shadow-blue);
+  height: 5em;
+  left: 0;
+  position: absolute;
+  margin-bottom: 0%;
+  top: 0.5vw;
+  width: 100%;
+}
+
+.home-landing .icon-instagram {
+  height: 85px;
+  left: 1181px;
+  object-fit: cover;
+  top: 0;
+  width: 72px;
+}
+
+.home-landing .icon-social-youtube {
+  cursor: pointer;
+  height: 35px;
+  left: 1118px;
+  position: absolute;
+  top: 27px;
+  width: 34px;
+}
+
+.home-landing .icon-mail {
+  height: 43px;
+  left: 1023px;
+  top: 27px;
+  width: 52px;
+}
+
+.home-landing .rectangle-46 {
+  background-color: var(--white);
+  border-radius: 15px;
+  cursor: pointer;
+  height: 38px;
+  left: 817px;
+  position: absolute;
+  top: 24px;
+  width: 150px;
+}
+
+.home-landing .donate {
+  cursor: pointer;
+  left: 843px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+}
+
+/*Our Team*/
+.home-landing .home-our-team-section {
+  height: 4em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.home-landing .flex-col-3 {
+  align-items: flex-end;
+  gap: 0.5vw;
+  left: 0.5vw;
+  min-height: 8vw;
+  position: absolute;
+  top: -0.5vw;
+  width: 50%;
+}
+
+.home-landing .overlap-group2 {
+  height: 8vw;
+  position: relative;
+  width: 699px;
+}
+
+.home-landing .our-team {
+  font-size: 6vw;
+  left: 1vw;
+  position: relative;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 20vw;
+  white-space: nowrap;
+}
+
+.home-landing .rectangle-8 {
+  height: 0.5vw;
+  left: 0;
+  top: 7vw;
+  width: 33vw;
+}
+
+.home-landing .we-are-a-youth-lead {
+  color: transparent;
+  font-family: var(--font-family-raleway);
+  font-size: 2.5vw(--font-size-m);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 3vw;
+  margin-right: 1.0px;
+  min-height: 4vw;
+  width: 90%;
+}
+
+.home-landing .span-1 {
+  color: var(--black);
+}
+
+.home-landing .span1 {
+  color: #7182d6;
+}
+
+.home-landing .vector-5 {
+  height: 381px;
+  left: 777px;
+  position: absolute;
+  top: 20px;
+  width: 626px;
+}
+
+.home-landing .overlap-group3 {
+  height: 366px;
+  left: 0;
+  position: absolute;
+  top: 336px;
+  width: 283px;
+}
+
+/*mascot*/
+.home-landing .plant-boi-classic-2 {
+  height: 321px;
+  left: 0;
+  top: 45px;
+  width: 283px;
+}
+
+/*meet us button*/
+.home-landing .primary-button-1 {
+  background-color: #b4bde9;
+  height: 78px;
+  left: 80px;
+  min-width: 195px;
+  top: 0;
+}
+
+/*learn more button*/
+.home-landing .learn-more-1 {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: 26px;
+  font-weight: 800;
+  height: 78px;
+  margin-top: -1px;
+  width: 195px;
+}
+
+.home-landing .primary-button-2 {
+  border: 2px solid;
+  border-color: var(--black);
+  height: 96px;
+  left: 495px;
+  min-width: 450px;
+  top: 506px;
+}
+
+.home-landing .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--white-linen);
+  display: flex;
+  min-width: 446px;
+}
+
+.home-landing .learn-more-2 {
+  height: 92px;
+  width: 446px;
+}
+
+.home-landing .flex-col-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-landing .our {
+  -webkit-text-stroke: 1px var(--black);
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.home-landing .primary-button-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+}
+
+.home-landing .x10 {
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}

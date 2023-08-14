@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="utf-8" />
+  <title> BCI | CONTACT US </title>
+  <link rel="shortcut icon" type="image/png" href="assets/bci-logo--1--modified-12x.png" />
+
+  <!-- metadata for SEO -->
+  <meta name="author" content="The Bel Canto Initiative" />
+  <meta name="description" content="Contact us if you have any questions or feedback!" />
+
+  <!-- metadata for Open Graph Data protocol -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://belcantoinitiative.org/contact.html">
+  <meta property="og:title" content="Bel Canto Initiative | Contact Us">
+  <meta property="og:site_name" content="Bel Canto">
+  <meta name="og:description" content="Contact us if you have any questions or feedback!" />
+  <meta name="og:image" content="assets/home/image-1.png" /> <!-- Change this image ASAP -->
+  <meta name="og:width" content="1920" />
+  <meta name="og:height" content="1280" />
+  <meta property="og:locale" content="en_CA" />
+
+  <!-- metadata for Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bel Canto Initiative | Contact Us" />
+  <meta name="twitter:description" content="Contact us if you have any questions or feedback!" />
+  <meta name="twitter:image" content="assets/home/image-1.png" /> <!-- Change this image ASAP -->
+
+  <!-- metadata for viewport resizing-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- linking stylesheets -->
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/globals.css" />
+  <link rel="stylesheet" href="css/styleguide.css" />
+</head>
+
+<body class="contactBody">
+  <!-- Navbar section -->
+  <header class="contactHeaderContainer">
+    <!-- logo and links -->
+    <div class="contactHeader">
+      <img class="headerLogo" src="assets/bci-logo--1--modified-1@2x.png" alt="BCI Logo" />
+      <a href="index.html">HOME</a>
+      <a href="aboutUs.html">ABOUT US</a>
+      <a href="ourTeam.html">OUR TEAM</a>
+      <a href="initiatives.html">INITIATIVES</a>
+      <a id="currentPage">CONTACT</a>
+    </div>
+    <!-- rectangle below links -->
+    <div class="contactHeader">
+      <svg width="69.5vw" height="0.15vw">
+        <rect width="69.5vw" height="0.15vw" />
+      </svg>
+    </div>
+  </header>
+
+  <!-- Title section -->
+  <div class="contactTitle">
+    <!-- title -->
+    <h1>CONTACT US</h1>
+
+    <div class="rectBelowTitle">
+      <svg width="45vw" height="0.6vw">
+        <rect width="45vw" height="0.6vw" />
+      </svg>
+    </div>
+
+    <p class="textBelowTitle">
+      Got a question? Want to collaborate with us?
+      <br>
+      Shoot us a message!
+    </p>
+  </div>
+
+  <form method="post"
+    action="https://script.google.com/macros/s/AKfycby9Madw1S-QBW66j_HCk4V5oqGlPwwvsBtgRrlygrq4zkCpIhsf8wbdZFLzyUHKK7imTg/exec"
+    name="contactForm" id="contactForm">
+
+    <div class="contacts-send-message-section">
+      <h3>NAME</h3>
+      <input id="name" type="text" class="form-control" name="name" title="Name" />
+      <br>
+      <h3>EMAIL</h3>
+      <input id="email" type="email" class="form-control" name="email" title="Email" />
+      <br>
+      <h3>MESSAGE</h3>
+      <textarea id="message" class="form-control" name="message" title="Message"></textarea>
+      <br>
+      <input type="submit" value="SUBMIT" class="submitButton" id="submit" />
+    </div>
+
+  </form>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby9Madw1S-QBW66j_HCk4V5oqGlPwwvsBtgRrlygrq4zkCpIhsf8wbdZFLzyUHKK7imTg/exec'
+    const form = document.forms['contactForm']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => alert("Thank you! Your form has been submitted successfully."))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error! Please try again.', error.message))
+    })
+  </script>
+
+  <!-- Footer section -->
+  <footer class="contactFooter">
+    <!-- copyright text -->
+    <div class="contactFooterLeft">
+      <p>© Bel Canto 2022</p>
+    </div>
+    <!-- donate button -->
+    <div class="contactFooterCenter">
+      <a class="contactFooterCenterButton" href="https://www.gofundme.com/f/melodies-for-a-cause" target="_blank">
+        <svg width="15vw" height="3.5vw">
+          <rect width="15vw" height="3.5vw" rx="1.2vw" />
+        </svg>
+      </a>
+      <a class="contactFooterCenterText" href="https://www.gofundme.com/f/melodies-for-a-cause"
+        target="_blank">DONATE</a>
+    </div>
+    <!-- social icons -->
+    <div class="contactFooterRight">
+      <a href="mailto:belcantoinitiative@gmail.com" target="_blank">
+        <img src="assets/footer/emailIcon.png" alt="Bel Canto's Email" />
+      </a>
+      <a href="https://www.youtube.com/channel/UC_tbFpp5-XoFCTCR3oaGKQA" target="_blank">
+        <img src="assets/footer/youtubeIcon.png" alt="Bel Canto's YouTube Channel" />
+      </a>
+      <a href="href=https://www.instagram.com/belcantoinitiative" target="_blank">
+        <img src="assets/footer/instagramIcon.png" alt="Bel Canto's Instagram" />
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

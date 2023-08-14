@@ -1,0 +1,216 @@
+/* formatting for the body of the document */
+.aboutUsBody {
+  background-color: #e1d7c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* formatting for the section headers | <h2> */
+.aboutUsBody h2 {
+  color: white;
+  background-color: var(--shadow-blue);
+  font-family: var(--font-family-raleway);
+  font-weight: 600;
+  font-size: 6vw;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  min-width: 100vw;
+}
+
+/* for the navbar */
+.aboutUsHeaderContainer {
+  background-color: #e1d7c7;
+  min-width: 100vw;
+}
+
+/* for the navbar */
+.aboutUsHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2vw;
+  margin-left: 11vw;
+}
+
+/* for the logo in the navbar | <img /> */
+.aboutUsHeader img {
+  width: 5vw;
+  height: auto;
+}
+
+/* for the links in the navbar | <a> */
+.aboutUsHeader a {
+  color: black;
+  font-family: var(--font-family-raleway);
+  text-decoration: none;
+  padding-left: 2.5vw;
+  font-size: 2.5vw;
+}
+
+/* for the rectangle vector in the navbar | <svg> */
+.aboutUsHeader svg {
+  fill: black;
+  margin-left: 7.3vw;
+  margin-top: -4.7vw;
+}
+
+.rectAboveTitle {
+  fill: #A29C93;
+  margin-top: 2vw;
+  margin-bottom: 1.5vw;
+  margin-left: 24vw;
+}
+
+.aboutUsTitle h1 {
+  color: black;
+  font-family: var(--font-family-raleway);
+  font-weight: 700;
+  font-size: 7vw;
+  text-align: center;
+}
+
+.rectBelowTitle {
+  fill: #A29C93;
+  margin-top: 1.5vw;
+  margin-bottom: 5vw;
+}
+
+.aboutUsMissionStatement p {
+  color: #1E1E1E;
+  font-family: var(--font-family-raleway);
+  font-weight: 500;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 3vw;
+  margin-top: 3vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 3vw;
+  padding: 2vw;
+  border-color: black;
+  border-width: 0.3vw;
+  border-radius: 1vw;
+  border-style: solid;
+}
+
+.aboutUsOurStory div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.aboutUsOurStory img {
+  width: 20vw;
+  margin-top: 3vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 3vw;
+}
+
+.aboutUsOurStory p {
+  color: #1E1E1E;
+  font-family: var(--font-family-raleway);
+  font-weight: 300;
+  font-size: 2.3vw;
+  text-align: center;
+  line-height: 3vw;
+}
+
+.aboutUsMeetTheTeam svg {
+  fill:#A29C93;
+  margin-left: 10vw;
+  margin-top: 2vw;
+}
+
+.aboutUsMeetTheTeam p {
+  color: #1E1E1E;
+  font-family: var(--font-family-raleway);
+  font-weight: 500;
+  font-size: 2.5vw;
+  text-align: center;
+  line-height: 3.5vw;
+  margin: 4vw;
+}
+
+.aboutUsMeetTheTeamButton {
+  margin-bottom: 5vw;
+}
+
+.aboutUsMeetTheTeamButton a {
+  color: black;
+  text-decoration: none;
+  background: #9CA5D1;
+  font-family: var(--font-family-raleway);
+  font-weight: 700;
+  font-size: 3vw;
+  text-align: center;
+  border-color: #9CA5D1;
+  border-width: 2vw;
+  border-style: solid;
+}
+
+/* footer (utilizing grids) */
+.aboutUsFooter {
+  background-color: var(--shadow-blue);
+  min-width: 100vw;
+  overflow-y: hidden;
+  display: grid;
+  
+  /* create a grid with 3 columns that occupy 100% (1.00) of the screen*/
+  grid-template-columns: repeat(3, 1.00fr);
+}
+
+/* grid column 1 -> copyright */
+.aboutUsFooterLeft {
+ grid-column: 1;
+ padding-left: 3vw;
+}
+
+.aboutUsFooterLeft p {
+  /* for the plain text in the footer | <p> */
+  color: white;
+  font-size: 2vw;
+  font-family: var(--font-family-raleway);
+  margin-top: 1.5vw;
+}
+
+/* grid column 2 -> donate button */
+.aboutUsFooterCenter {
+  grid-column: 2;
+  padding-left: 9.2;
+}
+
+.aboutUsFooterCenterButton {
+  position: absolute;
+  fill: white;
+  margin-top: 1vw;
+}
+
+.aboutUsFooterCenterText {
+  text-decoration: none;
+  position: absolute;
+  font-size: 2vw;
+  font-weight: 600;
+  color: var(--shadow-blue);
+  font-family: var(--font-family-raleway);
+  padding-left: 3.6vw;
+  margin-top: 1.75vw;
+}
+
+/* grid column 3 -> social icons */
+.aboutUsFooterRight {
+  grid-column: 3;
+  padding-left: 8vw;
+}
+
+.aboutUsFooterRight img {
+  width: 3.5vw;
+  height: auto;
+  margin-right: 4vw;
+  margin-bottom: 0.5vw;
+  margin-top: 1vw;
+}
