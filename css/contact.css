@@ -1,147 +1,92 @@
-/* screen - contacts */
-
-/* root */
-.contacts {
+/* formatting for the body of the document */
+.contactBody {
   background-color: var(--white-linen);
   display: flex;
   flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
+  align-items: center;
 }
 
-/* header */
-.contacts .header {
+/* formatting for the section headers | <h2> */
+.contactBody h2 {
+  color: black;
+  background-color: #E1D7C7;
+  font-family: var(--font-family-raleway);
+  font-weight: 500;
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  min-width: 100vw;
+}
+
+/* for the navbar */
+.contactHeaderContainer {
+  background-color: var(--white-linen);
+  min-width: 100vw;
+}
+
+/* for the navbar */
+.contactHeader {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: transparent;
-  height: 5vw;
-  left: 15%;
-  position: absolute;
-  width: 100%;
-  }
+  margin-top: 2vw;
+  margin-left: 11vw;
+}
 
-/* top left header logo */
-.contacts .bci-logo-1-modified-2 {
+/* for the logo in the navbar | <img/> */
+.contactHeader img {
   width: 5vw;
   height: auto;
 }
 
-/* gap between header and title */
-.contacts .flex-col {
-  flex-direction: column;
-  margin-top: 3vw;
-}
-
-/* first 3 links inside header */
-.contacts .flex-row {
-  margin-left: 0;
-  width: 100%;
-  align-items: stretch;
-}
-
-/* "HOME" link */
-.contacts .place {
-  cursor: pointer;
-  color: black;
-  font-family: var(--font-family-raleway);
-  text-decoration: none;
-  padding-left: 2vw;
-  font-size: 2.2vw;
-}
-
-/* "ABOUT US" link */
-.contacts .about-us {
-  cursor: pointer;
+/* for the links in the navbar | <a> */
+.contactHeader a {
   color: black;
   font-family: var(--font-family-raleway);
   text-decoration: none;
   padding-left: 2.5vw;
-  font-size: 2.2vw;
+  font-size: 2.5vw;
 }
 
-/* "OUR TEAM" link */
-.contacts .our-team {
-  cursor: pointer;
-  color: black;
-  font-family: var(--font-family-raleway);
-  text-decoration: none;
-  padding-left: 3vw;
-  font-size: 2.2vw;
-}
-
-
-/* "INITIATIVES" link */
-.contacts .initiatives {
-  cursor: pointer;
-  color: black;
-  font-family: var(--font-family-raleway);
-  text-decoration: none;
-  padding-left: 3.5vw;
-  font-size: 2.2vw;
-}
-
-/* "CONTACT US" link */
-.contacts .place-1 {
-  cursor: pointer;
-  color: black;
-  font-family: var(--font-family-raleway);
-  text-decoration: none;
-  padding-left: 4vw;
-  font-size: 2.2vw;
-
-}
-
-/* thin line below links in header */
-.contacts .line-1 {
+/* for the rectangle vector in the navbar | <svg> */
+.contactHeader svg {
+  fill: black;
   margin-left: 7.3vw;
-  margin-top: -1.1vw;
-  margin-left: 7.3vw;
-  height: 0.2vw;
+  margin-top: -4.7vw;
 }
 
-/* title section */
-.contacts .contacts-title-sction {
-  align-items: flex-start;
+.contactTitle h1 {
+  color: black;
+  font-family: var(--font-family-raleway);
+  font-weight: 700;
   font-size: 7vw;
-  margin-top: 0vw;
   text-align: center;
+  margin-top: 2vw;
 }
 
-/* holds CONTACT US header + subtitle text */
-.contacts .overlap-group4 {
-  align-items: flex-start;
-  background-color: #cfd6f8;
-  display: flex;
-  flex-direction: column;
-  gap: 21px;
-  min-height: 376px;
-  padding: 39px 84px;
-  width: 1440px;
+.rectBelowTitle {
+  fill: black;
+  margin-bottom: 2vw;
+  margin-left: 8.1vw;
 }
 
-/* CONTACT US text */
-.contacts .title {
-  color: var(--black);
+.textBelowTitle {
+  color: #1E1E1E;
   font-family: var(--font-family-raleway);
-  font-size: 8vw;
-  font-weight: 800;
-  margin-top: 5vw;
+  font-weight: 300;
+  font-size: 2vw;
   text-align: center;
-  margin-left: 2em;
-}
-
-/* text below CONTACT US */
-.contacts .detail-detail-detail {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 139px;
-  width: 1271px;
+  line-height: 3vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 2vw;
 }
 
 /* root for send message section */
-.contacts .contacts-send-message-section {
+.contact-send-message-section {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -152,49 +97,64 @@
   width: 1279px;
 }
 
-/*group class for all input boxes*/
-.contacts .form-control {
-  margin-left: 10vw;
-  min-width: 50vw;
+.contacts-send-message-section h3 {
+  font-family: var(--font-family-raleway);
+  color: black;
   font-size: 2vw;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5vw;
+}
+
+/*group class for all input boxes*/
+.form-control {
+  resize: vertical;
+  border: 0.1vw solid black;
+  background: #E7E0D7;
+  color: #1E1E1E;
+  display: flex;
+  min-width: 60vw;
+  font-size: 1.5vw;
   min-height: 4vw;
-  max-height: 6vw;
-  
+  max-height: 50vh;
+  font-family: var(--font-family-raleway);
+  margin-bottom: 2vw;
 }
 
 @media screen and (max-width: 768px) {
-  .contacts .form-control {
+  .form-control {
     font-size: 4.5vw; /* Minimum font size */
     min-height: 6vw;
   }
 }
 
+#message {
+  min-height: 12vw;
+}
+
 /* submit" button */
-.contacts .overlap-group-1 {
-  align-items: center;
+.submitButton {
   background-color: #a5b0e5;
   border-radius: 2.5vw;
-  display: flex;
-  height: 6vw;
-  justify-content: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 5vw;
-  min-width: 15vw;
-  margin-bottom: 5vw;
+  border: none;
+  box-shadow: 0px 0.3vw 0.3vw 0px rgba(0, 0, 0, 0.25);
 
-  color: var(--black);
+  display: flex;
+  justify-content: center;
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  margin-left: 22.5vw;
+  height: 6vw;
+  min-width: 15vw;
+
   font-family: var(--font-family-raleway);
   font-size: 2vw;
   font-weight: 600;
-  letter-spacing: 0;
-  line-height: normal;
   text-align: center;
-  padding: 0.5vw;
 }
 
 @media screen and (max-width: 768px) {
-  .contacts .overlap-group-1 {
+  .submitButton {
     font-size: 4vw; /* Minimum font size */
     min-width: 20vw;
     font-size: 3vw;
@@ -229,31 +189,24 @@
 /* grid column 2 -> donate button */
 .contactFooterCenter {
   grid-column: 2;
-  padding-left: 8vw;
+  padding-left: 9.2vw;
 }
 
 .contactFooterCenterButton {
-  position: relative; /* Change to relative positioning */
-  display: flex; /* Use flexbox for alignment */
-  align-items: center;
-  justify-content: center;
-  background-color: #a5b0e5; /* Add a background color */
-  border-radius: 3vw;
-  margin-top: 2vw;
-
+  position: absolute;
+  fill: white;
+  margin-top: 1vw;
 }
 
 .contactFooterCenterText {
-  position: absolute;
-  top: 50%; /* Position text vertically in the middle */
-  left: 50%; /* Position text horizontally in the middle */
-  transform: translate(-50%, -50%); /* Adjust for exact centering */
   text-decoration: none;
+  position: absolute;
   font-size: 2vw;
   font-weight: 600;
   color: var(--shadow-blue);
   font-family: var(--font-family-raleway);
-  z-index: 1; /* Bring the text above the button */
+  padding-left: 3.6vw;
+  margin-top: 1.75vw;
 }
 
 /* grid column 3 -> social icons */
