@@ -74,17 +74,20 @@
   .ourTeamRow {
     display: flex;
     flex-direction: row;
-    margin-left: 4vw;
-  }
-
-  #logisticsRow2 {
-    margin-left: 13.2vw;
+    justify-content: center;
   }
 
   /* for the [photo + name + role] of each person*/
   .ourTeamRow g {
     min-width: 15vw;
     margin: 1.7vw;
+    align-self: end;
+  }
+
+  .ourTeamRow t {
+    min-width: 15vw;
+    margin: 1.7vw;
+    align-self: auto;
   }
 
   .ourTeamHeadshots img {
@@ -93,24 +96,16 @@
     border: 0.7vw solid #BAC1DF;
   }
 
-  .NinaW {
+  .president {
     min-width: 17vw;
     min-height: 23vw;
+    border: 1.2vw solid #e4c48f !important;
   }
 
-  .JaniceL {
+  .VP {
     min-width: 17vw;
     min-height: 23vw;
-  }
-
-  .StaceyK {
-    min-width: 17vw;
-    min-height: 23vw;
-  }
-
-  .YuanC {
-    min-width: 17vw;
-    min-height: 23vw;
+    border: 1.2vw solid #aab6e9 !important;
   }
 
   .ourTeamHeadshots p {
