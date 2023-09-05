@@ -172,7 +172,11 @@
   }
 
   #learnMoreButtonFundraisers {
-    margin-left: 45vw;
+    margin-left: 33.75vw;
+  }
+
+  .blueOutline {
+    border: 0.4vw solid #BAC1DF;
   }
 
   .initiativesFundraisersContainer {
