@@ -243,16 +243,22 @@
     margin-left: 7vw;
   }
 
-  #MMOHPhoto1 {
-    max-width: 10vw;
-    height: auto;
-    display: absolute;
+  #MMOHPhoto {
+    min-width: 20vw;
+    max-width: 20vw;
+    margin-top: 1vw;
   }
 
-  #MMOHPhoto2 {
-    max-width: 10vw;
-    height: auto;
-    position: relative;
+  #FundraisersPhoto {
+    min-width: 20vw;
+    max-width: 20vw;
+    margin-top: 1vw;
+  }
+
+  #MFFPhoto {
+    min-width: 27vw;
+    max-width: 27vw;
+    margin-top: 1vw;
   }
 
   /* footer (utilizing grids) */
