@@ -21,8 +21,16 @@
   }
   
   /* for the navbar */
-  .mffHeaderContainer {
+  .initiativesBody {
     background-color: var(--white-linen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* for the navbar */
+  .mffHeaderContainer {
+    background-color: #e1d7c7;
     min-width: 100vw;
   }
 
@@ -94,6 +102,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+  .headerInitiatives {
+    font-weight: bold;
   }
 
 .pictureStyle{
