@@ -72,6 +72,29 @@
   width: 50%;
 }
 
+@media (min-width: 769px) {
+  .title {
+    font-size: 6vw;
+  }
+
+  .frontSectionSubTitle {
+    font-size: 2vw !important;
+    margin-left: 10% ;
+  }
+
+  .ourImpactSectionHeader {
+    font-size: 5vw !important;
+  }
+
+  .ourImpactSubTitle {
+    font-size: var(--font-size-0.7) !important;
+  }
+
+  .our-team {
+    font-size: 5vw !important;
+  }
+}
+
 /*slogan text*/
 .frontSectionSubTitle{
   color: var(--white);
