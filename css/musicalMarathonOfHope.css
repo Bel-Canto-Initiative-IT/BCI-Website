@@ -104,10 +104,6 @@
     line-height: normal;
   }
 
-  .headerInitiatives {
-    font-weight: bold;
-  }
-
 .pictureStyle{
   display: flex;
   flex-direction: row;
