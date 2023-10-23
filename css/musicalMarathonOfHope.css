@@ -5,21 +5,6 @@
     flex-direction: column;
   }
   
-  /* formatting for the section headers | <h2> */
-  .mffBody h2 {
-    color: black;
-    background-color: #E1D7C7;
-    font-family: var(--font-family-raleway);
-    font-weight: 500;
-    font-size: 4vw;
-    text-align: center;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    min-width: 100vw;
-  }
-  
   /* for the navbar */
   .initiativesBody {
     background-color: var(--white-linen);
@@ -30,7 +15,6 @@
   
   /* for the navbar */
   .mffHeaderContainer {
-    background-color: #e1d7c7;
     min-width: 100vw;
   }
 
@@ -40,7 +24,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 2vw;
-    margin-left: 11vw;
+    margin-left: calc(11.6vw - 15px);
   }
   
   /* for the logo in the navbar | <img/> */
@@ -73,7 +57,7 @@
     color: black;
     font-family: var(--font-family-raleway);
     font-weight: 700;
-    font-size: 5vw;
+    font-size: calc(4vw + 10px);
     text-align: center;
     margin-top: 2vw;
   }
@@ -81,11 +65,11 @@
   .description {
     text-align: center;
     width: 100vw;
-    padding-bottom: 9vh;
+    padding-bottom: 6vw;
     flex-shrink: 0;
     color: #000;
     font-family: var(--font-family-raleway);
-    font-size: 2.5vw;
+    font-size: calc(1.8vw + 10px);
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -110,14 +94,14 @@
 }
 
 img {
-  width: 29.5vw;
+  width: calc(31.5vw + 30px);
 }
 
 .picture1 {
   background-color: white; /* placeholder */
-  margin-left: 12vw;
-  width: 32vw;
-  height: 20vw;
+  margin-left: calc(11.6vw - 15px);
+  width: calc(31.5vw + 30px);
+  height: calc(18vw + 30px);
   border: 1.3vw solid #BAC1DF;
   justify-content: flex-start;
   overflow: hidden;
@@ -125,47 +109,52 @@ img {
 
 .picture2 {
   background-color: white; /* placeholder */
-  margin-left: 12vw;
-  width: 32vw;
-  height: 20vw;
+  margin-left: calc(11.6vw - 15px);
+  width: calc(31.5vw + 30px);
+  height: calc(18vw + 30px);
   border: 1.3vw solid #BAC1DF;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .picture3 {
   background-color: white; /* placeholder */
-  margin-left: 12vw;
-  width: 32vw;
-  height: 20vw;
+  margin-left: calc(11.6vw - 15px);
+  width: calc(31.5vw + 30px);
+  height: calc(18vw + 30px);
   border: 1.3vw solid #BAC1DF;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .picture4 {
   background-color: white; /* placeholder */
-  margin-left: 12vw;
-  width: 32vw;
-  height: 20vw;
+  margin-left: calc(11.6vw - 15px);
+  width: calc(31.5vw + 30px);
+  height: calc(18vw + 30px);
   border: 1.3vw solid #BAC1DF;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .picture5 {
   background-color: white; /* placeholder */
-  margin-left: 12vw;
-  width: 32vw;
-  height: 20vw;
+  margin-left: calc(11.6vw - 15px);
+  width: calc(31.5vw + 30px);
+  height: calc(18vw + 30px);
   border: 1.3vw solid #BAC1DF;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .picture6 {
   background-color: white; /* placeholder */
-  margin-left: 12vw;
-  width: 32vw;
-  height: 20vw;
+  margin-left: calc(11.6vw - 15px);
+  width: calc(31.5vw + 30px);
+  height: calc(18vw + 30px);
   border: 1.3vw solid #BAC1DF;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .headerContainer {
@@ -184,7 +173,7 @@ img {
 
   .Header2 {
     display: flex;
-    padding-left: 14vw;
+    padding-left: calc(13vw + 22px);
     padding-top: 2vh;
     padding-bottom: 4vh;
     justify-content: center;
@@ -202,7 +191,7 @@ img {
 
   .Header4 {
     display: flex;
-    padding-left: 14vw;
+    padding-left: calc(13vw + 22px);
     padding-top: 2vh;
     padding-bottom: 4vh;
     justify-content: center;
@@ -220,7 +209,7 @@ img {
 
   .Header6 {
     display: flex;
-    padding-left: 14vw;
+    padding-left: calc(13vw + 22px);
     padding-top: 2vh;
     padding-bottom: 4vh;
     justify-content: center;

@@ -58,22 +58,24 @@
   .initiativesSignUp h3 {
     color: #5B554D;
     text-align: right;
-    font-family: Sriracha;
+    font-family: var(--font-family-raleway);
     font-size: 5vw;
     line-height: 7vw;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 1.5vw;
+    font-weight: bold;
   }
 
   .initiativesSignUp p {
     color: #5B554D;
     text-align: right;
-    font-family: Sriracha;
+    font-family: Raleway;
     font-size: 2.75vw;
     line-height: 4.5vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    font-weight: 400;
   }
 
   /* FORMATTING FOR THE PLACEHOLDER IMAGE / REPLACE WITH ANYTHING */
